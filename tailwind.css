@@ -50,3 +50,26 @@
     display: none;
   }
 }
+.text-5xl{
+  font-size: 40px;
+}
+
+.rounded-large{
+  border-radius: 30px;
+}
+
+/* width */
+::-webkit-scrollbar {
+  width: 10px;
+}
+
+/* Track */
+::-webkit-scrollbar-track {
+  border-radius: 10px;
+}
+
+/* Handle */
+::-webkit-scrollbar-thumb {
+  background: #194735; 
+  border-radius: 10px;
+}

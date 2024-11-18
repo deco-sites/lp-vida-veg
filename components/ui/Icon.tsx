@@ -18,7 +18,7 @@ export type AvailableIcons =
   | "Elo"
   | "Facebook"
   | "FilterList"
-  | "Heart"
+  | "newHeart"
   | "Instagram"
   | "Linkedin"
   | "Minus"
@@ -42,7 +42,10 @@ export type AvailableIcons =
   | "Visa"
   | "WhatsApp"
   | "XMark"
-  | "Zoom";
+  | "Zoom"
+  | "IconFood"
+  | "About"
+  |"Target";
 
 interface Props extends JSX.SVGAttributes<SVGSVGElement> {
   /**

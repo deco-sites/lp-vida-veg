@@ -1,42 +1,188 @@
 {
-    "name": "Home",
-    "path": "/",
-    "sections": [
-      {
-        "__resolveType": "Header"
+  "name": "Home",
+  "path": "/",
+  "sections": [
+    {
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
       },
-      {
-        "__resolveType": "site/sections/Hero.tsx",
-        "title": "<p>Click here to tweak this text however you want.</p>",
-        "cta": [],
-        "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-      },
-      {
-        "__resolveType": "site/sections/Logos.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx"
-      },
-      {
-        "__resolveType": "site/sections/ImageWithParagraph.tsx",
-        "placement": "right"
-      },
-      {
-        "__resolveType": "site/sections/BlogPosts.tsx"
-      },
-      {
-        "__resolveType": "site/sections/Testimonials.tsx",
-        "arrows": true
-      },
-      {
-        "__resolveType": "site/sections/Faq.tsx"
-      },
-      {
-        "__resolveType": "Footer"
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
       }
-    ],
-    "__resolveType": "website/pages/Page.tsx",
-    "seo": {
-      "__resolveType": "website/sections/Seo/SeoV2.tsx"
+    },
+    {
+      "__resolveType": "site/sections/Hero.tsx",
+      "title": "<p><strong><span style=\"color: #ededed\">Faz bem para o mundo, faz bem para o seu negócio</span></strong></p>",
+      "cta": [],
+      "description": "<p><span style=\"color: #ffffff\">Se diferencie e destaque&nbsp;o potencial do seu cardápio com </span><strong><span style=\"color: #a1c342\">produtos saudáveis</span></strong><span style=\"color: #ffffff\"> que atendem às demandas crescentes por </span><strong><span style=\"color: #a1c342\">alimentação consciente e mais inclusiva.</span></strong></p>",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/64ab47d2-26b5-46c0-9489-c693fb828135/Frame-5.png",
+      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/07acd649-98aa-4890-949c-90573e9939c3/Frame-5.png",
+      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/64ab47d2-26b5-46c0-9489-c693fb828135/Frame-5.png"
+    },
+    {
+      "__resolveType": "site/sections/ImageWithParagraph.tsx",
+      "title": "<p><strong><span style=\"color: rgb(161, 195, 66); font-size: 18pt\">Somos a Vida Veg Chef, uma marca da Vida Veg dedicada ao food service</span><span style=\"color: rgb(161, 195, 66); font-size: 21pt\">.</span></strong><span style=\"color: rgb(255, 255, 255)\"> </span><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Oferecemos alimentos deliciosos, saudáveis e acessíveis.</span></p>",
+      "titlePlacement": "left",
+      "tagline": {
+        "label": "Quem Somos"
+      },
+      "disableSpacing": {
+        "bottom": false,
+        "top": false
+      },
+      "description": "<p><strong><span style=\"color: rgb(161, 195, 66); font-size: 18pt\">Nosso compromisso é inovação e qualidade para negócios que buscam alimentos plant based.</span></strong></p><p><br><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">Aqui, tudo é desenvolvido para garantir a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 15pt\">qualidade e a excelência que o seu negócio busca.</span></strong></p>",
+      "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png",
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TextWithIcon.tsx",
+        "cards": [
+          {
+            "text": "<p><span>Produtos </span><strong><span>100% vegetais,</span></strong><span> saudáveis, saborosos e sustentáveis</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/70235541-2054-4d29-83f9-bc36c7586d4d/eye.svg"
+          },
+          {
+            "text": "<p><strong><span>Consultoria gastronômica</span></strong><span> por tipo de cozinha</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/70235541-2054-4d29-83f9-bc36c7586d4d/eye.svg"
+          },
+          {
+            "text": "<p><strong><span>Facilidade no uso e integração</span></strong><span> com diferentes tipos de pratos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/70235541-2054-4d29-83f9-bc36c7586d4d/eye.svg"
+          },
+          {
+            "text": "<p><strong><span>Suporte contínuo com receitas e dicas</span></strong><span> de como usar nossos produtos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/70235541-2054-4d29-83f9-bc36c7586d4d/eye.svg"
+          }
+        ],
+        "description": "<p><strong><span style=\"font-size: 14pt\">Abraçamos a sustentabilidade.</span></strong><span style=\"font-size: 14pt\"> Cada escolha impacta diretamente o todo,<br>e é assim que cultivamos um mundo mais verde e inclusivo.</span></p>"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Spacer.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Benefits.tsx",
+        "text": "alguma coisa aqui",
+        "percentage": 90,
+        "cards": [
+          {
+            "percentage": 85,
+            "text": "dos brasileiros possuem algum nível de intolerância à proteína do leite de origem animal."
+          },
+          {
+            "percentage": 70,
+            "text": "dos consumidores no mundo está mudando de dieta para previnir doenças."
+          },
+          {
+            "percentage": 49,
+            "text": "dos consumidores brasileiros afirmaram ter reduzido o consumo de carne nos últimos 12 meses."
+          },
+          {
+            "percentage": 85,
+            "text": "experimentariam carnes vegerais que fossem idênticas às de origem animal."
+          }
+        ],
+        "font": "<p style=\"text-align: center\">FONTE: <u>Mercado Vegano</u> - SVB</p>",
+        "tags": [
+          "Vegetarianismo",
+          "Veganismo",
+          "Alimentação saudável",
+          "Alergia à proteína do leite (APLV)",
+          "Intolerância ao glúten",
+          "Intolerância à lactose"
+        ],
+        "content": "<p><span>Nos últimos anos, vimos de perto o aumento a adesão de alimentações específicas, como:</span></p>"
+      }
+    },
+    {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "<p><strong><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Quer saber como fazer</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(161, 196, 65); font-size: 23pt\">pratos irresistíveis com nossos produtos?</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Confira algumas receitas exclusivas que vão transformar seu cardápio:</span></strong></p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Spacer.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Testimonials.tsx",
+      "arrows": true,
+      "title": "<p>Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef</p>"
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Spacer.tsx"
+      }
+    },
+    {
+      "__resolveType": "site/sections/Footer.tsx",
+      "links": [],
+      "bottomLinks": [],
+      "social": [
+        {
+          "network": "Linkedin",
+          "href": "/"
+        },
+        {
+          "network": "Facebook",
+          "href": "/"
+        },
+        {
+          "network": "Youtube",
+          "href": "/"
+        },
+        {
+          "network": "Instagram",
+          "href": "/"
+        },
+        {
+          "network": "X - Twitter",
+          "href": "/"
+        }
+      ],
+      "subscribe": {
+        "title": "<p><span style=\"color: #fafafa; font-size: 12pt\">Receba as</span><span style=\"font-size: 12pt\"> </span><span style=\"color: #a1c342; font-size: 12pt\">novidades da Vida Veg!</span></p>"
+      },
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
+      },
+      "copyright": "© 2024 Vida Veg. Todos os Direitos Reservados.",
+      "madeWith": {
+        "label": " By:",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f8bdc48-ea46-4ffb-a63e-0af96f691891/Group-697.svg"
+      },
+      "seals": [
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0ad2e17b-48e7-487a-b9ea-5ac655cba2af/EuReciclo-1-3c42004f-1.svg",
+          "alt": "Eu Reciclo"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c34d0dca-15f5-4dd1-a031-ff6e4f382cbe/ProdutoVegano-eb5ff098-1.svg",
+          "alt": "Produto vegano"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5c51d04f-09cb-4c35-8f7c-460c8cfa6a33/LKB-ece7f7a9-1.svg",
+          "alt": "Lkb"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bce0c8d6-b645-4e5d-8cb1-642481bce178/Design-sem-nome-1-1-c038204d-1.svg",
+          "alt": "Bdk"
+        }
+      ]
     }
+  ],
+  "__resolveType": "website/pages/Page.tsx",
+  "seo": {
+    "__resolveType": "website/sections/Seo/SeoV2.tsx"
   }
+}

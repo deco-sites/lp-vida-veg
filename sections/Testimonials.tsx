@@ -13,33 +13,20 @@ export interface Testimonial {
     avatar?: ImageWidget;
     /** @description Image's alt text */
     alt?: string;
-    name?: string;
-    position?: string;
   };
 }
 
 export interface Props {
+  /**
+ * @format rich-text
+ * @default Click here to tweak this text however you want.
+ */
   title?: string;
   slides?: Testimonial[];
-  /**
-   * @title Show arrows
-   * @description show arrows to navigate through the images
-   */
-  arrows?: boolean;
-  /**
-   * @title Show dots
-   * @description show dots to navigate through the images
-   */
-  dots?: boolean;
-  /**
-   * @title Autoplay interval
-   * @description time (in seconds) to start the carousel autoplay
-   */
-  interval?: number;
 }
 
 const DEFAULT_PROPS = {
-  title: "This is where you'll put your customer testimonials",
+  title: "Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef",
   slides: [
     {
       content: {
@@ -48,8 +35,6 @@ const DEFAULT_PROPS = {
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
       },
     },
     {
@@ -59,8 +44,6 @@ const DEFAULT_PROPS = {
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
       },
     },
     {
@@ -70,8 +53,6 @@ const DEFAULT_PROPS = {
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
       },
     },
     {
@@ -81,8 +62,6 @@ const DEFAULT_PROPS = {
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
       },
     },
     {
@@ -92,8 +71,6 @@ const DEFAULT_PROPS = {
         avatar:
           "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/1527/7286de42-e9c5-4fcb-ae8b-b992eea4b78e",
         alt: "Avatar",
-        name: "Name Surname",
-        position: "Position, Company name",
       },
     },
   ],
@@ -109,29 +86,26 @@ function SliderItem(
   return (
     <div
       id={id}
-      class="relative overflow-y-hidden w-full min-h-[292px]"
+      class="relative overflow-y-hidden  min-h-[292px]"
     >
-      <div class="flex flex-col justify-center gap-16 p-8 border border-base-content rounded-2xl h-full max-w-[600px]">
-        <p class="text-lg">{content?.description}</p>
-        <div class="flex items-center gap-5">
+      <div class="flex flex-col gap-5 p-5 border border-base-content rounded-large h-full min-h-[464px] max-w-[324px]">
+        <div class="flex items-center gap-5 justify-between">
           <Image
-            class="object-cover w-14 h-14 rounded-full"
+            class="object-cover w-14 h-14 "
             alt={content?.alt}
             src={content?.avatar || ""}
-            width={56}
-            height={56}
+            width={85}
+            height={50}
           />
-          <div class="flex flex-col">
-            <p class="font-semibold text-base">{content?.name}</p>
-            <p class="text-base">{content?.position}</p>
-          </div>
+          <Icon id="newHeart" width={24} height={24} />
         </div>
+        <p class="text-lg">{content?.description}</p>
       </div>
     </div>
   );
 }
 
-function Dots({ slides, interval = 0 }: Props) {
+function Dots({ slides }: Props) {
   return (
     <>
       <style
@@ -145,20 +119,19 @@ function Dots({ slides, interval = 0 }: Props) {
           `,
         }}
       />
-      <ul class="carousel col-span-full gap-3 z-10">
+      {/* <ul class="carousel col-span-full gap-3 z-10">
         {slides?.map((_, index) => (
           <li class="carousel-item">
             <Slider.Dot index={index}>
               <div class="py-5">
                 <div
                   class="w-2 h-2 rounded-full group-disabled:animate-progress dot"
-                  style={{ animationDuration: `${interval}s` }}
                 />
               </div>
             </Slider.Dot>
           </li>
         ))}
-      </ul>
+      </ul> */}
     </>
   );
 }
@@ -192,26 +165,24 @@ function Buttons() {
 
 function Carousel(props: Props) {
   const id = useId();
-  const { title, slides, interval } = { ...DEFAULT_PROPS, ...props };
+  const { title, slides } = { ...DEFAULT_PROPS, ...props };
 
   return (
     <div
       id={id}
-      class="min-h-min flex flex-col lg:container md:max-w-6xl lg:mx-auto mx-4 py-12 lg:py-28"
+      class="min-h-min flex flex-col lg:container mx-4 gap-7"
     >
-      <h2 class="text-4xl leading-snug lg:w-1/2 pb-12 lg:pb-16">
-        {title}
-      </h2>
+      <div class="flex justify-center lg:text-4xl lg:leading-[48px] text-[28px] text-accent-content font-bold text-start lg:text-center lg:max-w-[600px] lg:mx-auto" dangerouslySetInnerHTML={{ __html: title }} />
       <Slider
         class="carousel carousel-center w-full col-span-full row-span-full gap-6"
         rootId={id}
-        interval={interval && interval * 1e3}
+        // interval={interval && interval * 1e3}
         infinite
       >
         {slides?.map((slide, index) => (
           <Slider.Item
             index={index}
-            class="carousel-item max-w-[600px] w-full"
+            class="carousel-item max-w-[334px] w-full"
           >
             <SliderItem
               slide={slide}
@@ -221,10 +192,10 @@ function Carousel(props: Props) {
         ))}
       </Slider>
 
-      <div class="flex justify-between pt-8 lg:px-16">
+      {/* <div class="flex justify-between pt-8 lg:px-16">
         {props.dots && <Dots slides={slides} interval={interval} />}{" "}
         {props.arrows && <Buttons />}
-      </div>
+      </div>  */}
     </div>
   );
 }
