@@ -49,14 +49,6 @@ function SlideItem({ post }: { post: Post }) {
           backgroundPosition: "center",
         }}
       >
-        <Image
-          width={92}
-          class="absolute top-[-3rem] right-4 z-20"
-          src="https://s3-alpha-sig.figma.com/img/2c9c/b551/f44b30ac706762a40552a23ccd39b3fe?Expires=1732492800&Key-Pair-Id=APKAQ4GOSFWCVNEHN3O4&Signature=l9nrhWsR4e6rI~jIEUth40Ev4~Zn8WXWshxEMw-PXVwYUvT~Y20DZTO3TuAIO~nprN9bBTuhPtDzNn0secoe9a3WzUMCOAKvJWzpxcD49hdgM6G3PYR-~8wNvi9ORKtBS0BXiFVCZqc~sf7YbGQUzKcnIVRJkMmJHIG~~qAR4poGXBm0JenGd8vXrke7urepxOHRxrTbXewxO6ngz~7-xTXPf~cyq~7VxW-oezMJx1qlXivyypaVyf7sYtt5vg43xauX4Kff6P34-AgQB3BRuSQt9R2lzaNBvRI7vnrP0DUSZJdjR2ehmDZEts2iRCgnYitTL7DEQXnbdZPQLblZkQ__"
-          alt="Highlighted image for the post"
-          decoding="async"
-          loading="lazy"
-        />
       </div>
     </div>
   );

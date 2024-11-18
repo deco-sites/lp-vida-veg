@@ -64,12 +64,6 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Spacer.tsx"
-      }
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
         "__resolveType": "site/sections/Benefits.tsx",
         "text": "alguma coisa aqui",
         "percentage": 90,
@@ -104,13 +98,25 @@
       }
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx",
-      "title": "<p><strong><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Quer saber como fazer</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(161, 196, 65); font-size: 23pt\">pratos irresistíveis com nossos produtos?</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Confira algumas receitas exclusivas que vão transformar seu cardápio:</span></strong></p>"
-    },
-    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Spacer.tsx"
+        "__resolveType": "site/sections/Advantages.tsx",
+        "cards": [
+          {
+            "content": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Recorrência de Clientes</span></strong><span style=\"color: rgb(255, 255, 255)\"><br></span><span style=\"color: rgb(255, 255, 255); font-size: 11pt\">A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente.</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/93d3abbd-f942-4323-abaa-79065c9d0f08/eye.svg"
+          },
+          {
+            "content": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Consultoria Gastronômica</span></strong><span style=\"color: rgb(255, 255, 255)\"><br></span><span style=\"color: #ffffff; font-size: 11pt\">Nossa equipe de especialistas está pronta para ajudar você a elaborar pratos deliciosos e nutritivos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/93d3abbd-f942-4323-abaa-79065c9d0f08/eye.svg"
+          },
+          {
+            "content": "<p><strong><span style=\"color: #ffffff; font-size: 18pt\">Produtos de Alta Qualidade</span></strong><span style=\"color: #ffffff\"><br></span><span style=\"color: #ffffff; font-size: 11pt\">Requeijão, parmesão, muçarela, homus e mousse entre outros&nbsp;que se destacam tanto pelo sabor quanto pela praticidade no preparo</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/93d3abbd-f942-4323-abaa-79065c9d0f08/eye.svg"
+          }
+        ],
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/da594fed-da14-41cd-a62e-019b3d063099/Vector.svg",
+        "title": "<p><strong><span style=\"color: rgb(255, 255, 255); font-size: 23pt\">Oferecer produtos veganos no seu estabelecimento nunca foi tão fácil!<br></span><span style=\"color: rgb(161, 195, 66); font-size: 23pt\">Com a linha Vida Veg Chef, você contará com:</span></strong></p>"
       }
     },
     {
@@ -119,9 +125,26 @@
       "title": "<p>Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef</p>"
     },
     {
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "<p><strong><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Quer saber como fazer</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(161, 196, 65); font-size: 23pt\">pratos irresistíveis com nossos produtos?</span><span style=\"font-size: 23pt\"> </span><span style=\"color: rgb(21, 71, 52); font-size: 23pt\">Confira algumas receitas exclusivas que vão transformar seu cardápio:</span></strong></p>"
+    },
+    {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Spacer.tsx"
+        "__resolveType": "site/sections/Promotion.tsx",
+        "titlePage": "Promoção de Primeira Compra",
+        "content": "<p><strong><span style=\"color: #a1c342; font-size: 30pt\">A Vida Veg Chef oferece uma </span><span style=\"color: #ffffff; font-size: 30pt\">oportunidade especial</span><span style=\"font-size: 30pt\"> </span><span style=\"color: #a1c342; font-size: 30pt\">para novos clientes!</span></strong><br><br></p><p><span style=\"color: #ffffff; font-size: 16pt\">Ao fazer o cadastro,</span><span style=\"font-size: 16pt\"> </span><strong><span style=\"color: #a1c342; font-size: 16pt\">você ganha 15% OFF no primeiro pedido.</span></strong><br><br></p><p><strong><span style=\"color: #ffffff; font-size: 26pt\">Conheça nossa linha de produtos<br>e faça seu pedido!</span></strong></p>",
+        "cta": {
+          "label": "Faça seu pedido aqui",
+          "link": "/"
+        },
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbe4af10-fce2-47c0-b320-c7a006d8e32c/Rectangle-3.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Form.tsx"
       }
     },
     {
