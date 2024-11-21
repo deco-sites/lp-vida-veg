@@ -3,6 +3,7 @@ import Image from "apps/website/components/Image.tsx";
 
 import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
+
 import Icon from "../components/ui/Icon.tsx";
 
 
@@ -11,14 +12,13 @@ import Icon from "../components/ui/Icon.tsx";
  */
 export interface Post {
   title: string;
-  description: string;
   image: ImageWidget;
 }
 
 export interface Props {
   /**
 * @format rich-text
-* @default Click here to tweak this text however you want.
+* @default Click Receitas e Dicas Exclusivas.
 */
   titleSection?: string;
   /**
@@ -37,11 +37,11 @@ function SlideItem({ post }: { post: Post }) {
     <div class="rounded-large overflow-hidden max-w-[324px] w-full">
       <div class="p-6 space-y-4 bg-accent-content">
         <div class="space-y-2">
-          <h3 class="text-2xl">{post.title}</h3>
-          <p class="text-base">{post.description}</p>
+          <h3 class="text-xl font-bold">{post.title}</h3>
         </div>
       </div>
       <div
+        id="post_item"
         class="h-[260px] relative"
         style={{
           backgroundImage: `url(${post.image})`,
@@ -87,7 +87,7 @@ export default function BlogPosts({
           <div class="flex flex-col gap-7">
             <div class="flex gap-1 items-center">
               <Icon id="IconFood" width={24} height={24} />
-              <p class="font-bold text-sm text-primary">{titleSection}</p>
+              <p  dangerouslySetInnerHTML={{__html: titleSection}} class="font-bold text-sm text-primary"></p>
             </div>
             <div
               class="text-[28px] leading-[36px] lg:text-5xl font-bold "
