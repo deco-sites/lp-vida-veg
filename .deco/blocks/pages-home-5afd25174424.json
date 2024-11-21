@@ -7,26 +7,146 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p><span>Faz bem para o mundo, faz bem para o seu negócio</span></p>",
+      "title": "<p><span style=\"color: #ffffff\">Faz bem para o mundo, faz bem para o seu negócio</span></p>",
       "cta": [],
-      "description": "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away."
-    },
-    {
-      "__resolveType": "site/sections/ImageWithParagraph.tsx"
+      "description": "<p><span style=\"color: #ffffff\">Se diferencie e destaque&nbsp;o potencial do seu cardápio com </span><strong><span style=\"color: #a1c342\">produtos saudáveis</span></strong><span style=\"color: #ffffff\"> que atendem às demandas crescentes por </span><strong><span style=\"color: #a1c342\">alimentação consciente e mais inclusiva.</span></strong></p>",
+      "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/07acd649-98aa-4890-949c-90573e9939c3/Frame-5.png",
+      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/64ab47d2-26b5-46c0-9489-c693fb828135/Frame-5.png"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
-      "placement": "right"
+      "placement": "right",
+      "title": "<p><span style=\"color: #a1c342\">Somos a Vida Veg Chef, uma marca da Vida Veg dedicada ao food service. Oferecemos alimentos deliciosos, saudáveis e acessíveis.</span></p><p><span style=\"color: #ffffff\">Nosso compromisso é inovação e qualidade para negócios que buscam alimentos plant based.</span></p><p></p>",
+      "description": "<p><span style=\"color: #ffffff\">Aqui, tudo é desenvolvido para garantir a qualidade e a </span><strong><span style=\"color: #ffffff\">excelência que o seu negócio busca.</span></strong></p>",
+      "tagline": {
+        "tagline": "Quem Somos"
+      },
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png"
     },
     {
-      "__resolveType": "site/sections/BlogPosts.tsx"
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/TextWithIcon.tsx",
+        "title": "Um novo futuro começa agora!",
+        "description": "<p><strong><span>Abraçamos a sustentabilidade.</span></strong><span> Cada escolha impacta diretamente o todo,<br>e é assim que cultivamos um mundo mais verde e inclusivo.</span></p>",
+        "cards": [
+          {
+            "text": "<p><span>Produtos 100% </span><strong><span>vegetais, saudáveis</span></strong><span>, saborosos e sustentáveis</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          },
+          {
+            "text": "<p><strong><span>Consultoria gastronômica</span></strong><span> por tipo de cozinha</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          },
+          {
+            "text": "<p><strong><span>Facilidade no uso e integração</span></strong><span> com diferentes tipos de pratos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          },
+          {
+            "text": "<p><strong><span>Suporte contínuo com receitas e dicas</span></strong><span> de como usar nossos produtos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          }
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Benefits.tsx",
+        "cards": [
+          {
+            "percentage": 85,
+            "text": "dos brasileiros possuem algum nível de intolerância à proteina do leite de origem animal"
+          },
+          {
+            "percentage": 70,
+            "text": "dos consumidores no  mundo está mudando de dieta para prevenir doenças."
+          },
+          {
+            "percentage": 49,
+            "text": "dos consumidores brasileiros afirmaram ter reduzido o consumo de carne nos últimos 12 meses."
+          },
+          {
+            "percentage": 85,
+            "text": "experimentariam carnes vegetais que fossem idênticas às de origem animal."
+          }
+        ],
+        "titlePage": "Benefícios para seu Negócio",
+        "font": "<p>Fonte: <u>Mercado Vegano - SVB</u></p>",
+        "content": "<p>Nos últimos anos, vimos de perto o aumento a adesão de alimentações específicas, como:</p>",
+        "tags": [
+          "Vegetarianismo",
+          "Veganismo",
+          "Alimentação saudável",
+          "Intolerância à lactose",
+          "Alergia à proteína do leite (APLV)",
+          "Intolerância ao glúten"
+        ]
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Advantages.tsx",
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/da594fed-da14-41cd-a62e-019b3d063099/percent.svg",
+        "title": "<p><strong><span style=\"color: #ffffff\">Oferecer produtos veganos no seu estabelecimento nunca foi tão fácil!<br></span><span style=\"color: #a1c342\">Com a linha Vida Veg Chef, você contará com:</span></strong></p>",
+        "cards": [
+          {
+            "content": "<p><strong><span style=\"color: rgb(255, 255, 255)\">Recorrência de Clientes.</span></strong><br><span style=\"color: rgb(255, 255, 255)\">A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente..</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          },
+          {
+            "content": "<p><strong><span style=\"color: rgb(255, 255, 255)\">Consultoria Gastronômica</span></strong><span style=\"color: rgb(255, 255, 255)\"><br>Nossa equipe de especialistas está pronta para ajudar você a elaborar pratos deliciosos e nutritivos</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          },
+          {
+            "content": "<p><strong><span style=\"color: #ffffff\">Produtos de Alta Qualidade</span></strong><br><span style=\"color: #ffffff\">Requeijão, parmesão, muçarela, homus e mousse entre outros&nbsp;que se destacam tanto pelo sabor quanto pela praticidade no preparo</span></p>",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbbc3f06-3d58-4f80-b635-3952769ad8ef/image.svg"
+          }
+        ]
+      }
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
       "arrows": true
     },
     {
-      "__resolveType": "site/sections/Faq.tsx"
+      "__resolveType": "site/sections/BlogPosts.tsx",
+      "title": "<p><span>Quer saber como fazer pratos irresistíveis com nossos produtos? Confira nossos vídeos com algumas receitas exclusivas que vão transformar seu cardápio:</span></p>",
+      "titleSection": "<p>Receitas e Dicas Exclusivas</p>",
+      "posts": [
+        {
+          "title": "Pizza com queijo muçarela Vida Veg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/57f3c8ba-d89b-4622-9da4-b1976fbd7816/image-3.png"
+        },
+        {
+          "title": "Sanduíche vegano com requeijão Vida Veg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/de02a4c5-9f95-4090-aee1-546ec17b8870/image.png"
+        },
+        {
+          "title": "Pizza com queijo muçarela Vida Veg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/57f3c8ba-d89b-4622-9da4-b1976fbd7816/image-3.png"
+        }
+      ]
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Promotion.tsx",
+        "titlePage": "Promoção de Primeira Compra",
+        "content": "<p><strong><span style=\"color: #a1c342; font-size: 20pt\">A Vida Veg Chef oferece uma</span><span style=\"color: #ffffff; font-size: 20pt\"> oportunidade especial </span><span style=\"color: #a1c342; font-size: 20pt\">para novos clientes!</span></strong><span style=\"color: #a1c342; font-size: 20pt\"> </span><br><br><span style=\"color: #ffffff; font-size: 15pt\">Ao fazer o cadastro, </span><strong><span style=\"color: #a1c342; font-size: 15pt\">você ganha 15% OFF no primeiro pedido.</span></strong><br><br><span style=\"color: #ffffff; font-size: 18pt\"> </span><strong><span style=\"color: #ffffff; font-size: 18pt\">Conheça nossa linha de produtos e faça seu pedido!</span></strong></p>",
+        "cta": {
+          "label": "Faça seu pedido aqui",
+          "link": "/"
+        },
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbe4af10-fce2-47c0-b320-c7a006d8e32c/Rectangle-3.png"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/Form.tsx"
+      }
     },
     {
       "__resolveType": "Footer"
