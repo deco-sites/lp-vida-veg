@@ -16,12 +16,16 @@
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
       "placement": "right",
-      "title": "<p><span style=\"color: #a1c342\">Somos a Vida Veg Chef, uma marca da Vida Veg dedicada ao food service. Oferecemos alimentos deliciosos, saudáveis e acessíveis.</span></p><p><span style=\"color: #ffffff\">Nosso compromisso é inovação e qualidade para negócios que buscam alimentos plant based.</span></p><p></p>",
-      "description": "<p><span style=\"color: #ffffff\">Aqui, tudo é desenvolvido para garantir a qualidade e a </span><strong><span style=\"color: #ffffff\">excelência que o seu negócio busca.</span></strong></p>",
+      "title": "<p><span style=\"color: rgb(161, 195, 66); font-size: 22pt\">Somos a Vida Veg Chef, uma marca da Vida Veg dedicada ao food service. Oferecemos alimentos deliciosos, saudáveis e acessíveis.</span></p><p></p><p><span style=\"color: rgb(255, 255, 255); font-size: 22pt\">Nosso compromisso é inovação e qualidade para negócios que buscam alimentos plant based.</span></p><p></p>",
+      "description": "<p><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">Aqui, tudo é desenvolvido para garantir a qualidade e a </span><strong><span style=\"color: rgb(255, 255, 255); font-size: 18pt\">excelência que o seu negócio busca.</span></strong></p>",
       "tagline": {
-        "tagline": "Quem Somos"
+        "label": "Quem Somos"
       },
-      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png"
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png",
+      "disableSpacing": {
+        "top": false,
+        "bottom": false
+      }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -108,7 +112,39 @@
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
-      "arrows": true
+      "arrows": true,
+      "slides": [
+        {
+          "content": {
+            "description": "Os queijos da vida VEG estão fazendo a diferença na nossa cozinha, uma que a textura e sabor são maravilhosas para preparações como pizza, risotos e outros. Já na loja os clientes estão encantados em poder consumir um queijo com tanto sabor e qualidade 💕",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/96e0b73b-3311-4021-b348-668ba9647322/457d2903b9cf2f14513a918fce316078.png"
+          }
+        },
+        {
+          "content": {
+            "description": "Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b5deff4c-a852-492f-9822-3a6c676bdd49/Group-39217.png"
+          }
+        },
+        {
+          "content": {
+            "description": "Aqui na Di Blasi Pizzas, temos explorado opções mais saudáveis e voltadas para o público vegano e vegetariano. Os produtos Vida Veg têm sido um ótimo complemento, especialmente por serem muito versáteis e de alta qualidade. Eles se integram bem nas preparações sem comprometer o sabor ou a textura, o que é essencial para manter o padrão das nossas pizzas. O feedback dos clientes tem sido positivo, pois muitos apreciam o sabor autêntico e a leveza dos ingredientes.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b8e81bf8-c337-4711-b35b-c57618d25eba/Group.png"
+          }
+        },
+        {
+          "content": {
+            "description": "Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0aa03bb6-f46d-4c0e-9d99-e2da3c98e511/Group-39217.png"
+          }
+        },
+        {
+          "content": {
+            "description": "Quando penso em alimentação tenho em mente não só a nutrição mas a forma de cuidar do todo, corpo, mente e meio ambiente. Os produtos Vida Veg nos proporcionam isso.  Cuidado com o todo, tendo assim o compromisso e a certeza de servir nosso propósito fazendo o melhor para uma alimentação saudável, inclusiva, saborosa e nutritiva!",
+            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
+          }
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
