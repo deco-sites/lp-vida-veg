@@ -1,1 +1,53 @@
-{"__resolveType":"site/sections/Footer.tsx","links":[],"bottomLinks":[],"social":[],"subscribe":{}}
+{
+  "__resolveType": "site/sections/Footer.tsx",
+  "links": [],
+  "bottomLinks": [],
+  "social": [
+    {
+      "network": "Linkedin",
+      "href": "/"
+    },
+    {
+      "network": "Facebook",
+      "href": "/"
+    },
+    {
+      "network": "Youtube",
+      "href": "/"
+    },
+    {
+      "network": "Instagram",
+      "href": "/"
+    },
+    {
+      "network": "X - Twitter",
+      "href": "/"
+    }
+  ],
+  "subscribe": {
+    "title": "<p><strong><span style=\"color: #ffffff\">Receba as </span></strong><span style=\"color: #a1c342\">novidades da Vida Veg</span><strong><span style=\"color: #ffffff\">!</span></strong></p>"
+  },
+  "seals": [
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0ad2e17b-48e7-487a-b9ea-5ac655cba2af/EuReciclo-1-3c42004f-1.svg",
+      "alt": "Eu Reciclo"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c34d0dca-15f5-4dd1-a031-ff6e4f382cbe/ProdutoVegano-eb5ff098-1.svg",
+      "alt": "Produto Vegano"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5c51d04f-09cb-4c35-8f7c-460c8cfa6a33/LKB-ece7f7a9-1.svg",
+      "alt": "LKB"
+    },
+    {
+      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bce0c8d6-b645-4e5d-8cb1-642481bce178/Design-sem-nome-1-1-c038204d-1.svg",
+      "alt": "BDK"
+    }
+  ],
+  "madeWith": {
+    "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f8bdc48-ea46-4ffb-a63e-0af96f691891/Group-697.svg",
+    "label": "by: "
+  },
+  "copyright": "© 2024 Vida Veg. Todos os Direitos Reservados"
+}
