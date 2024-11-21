@@ -7,11 +7,9 @@ export interface CTA {
   id?: string;
   href: string;
   text: string;
-  style?: "Outline" | "Ghost";
 }
 
 export interface Tagline {
-  tagline?: string;
   label?: string;
 }
 
@@ -27,10 +25,6 @@ export interface Props {
 */
   description?: string;
   src?: ImageWidget;
-  disableSpacing?: {
-    top?: boolean;
-    bottom?: boolean;
-  };
   tagline?: Tagline;
 }
 

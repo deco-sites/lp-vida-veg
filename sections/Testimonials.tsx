@@ -91,7 +91,7 @@ function SliderItem(
       <div class="flex flex-col gap-5 p-5 border border-base-content rounded-large h-full min-h-[464px] max-w-[324px]">
         <div class="flex items-center gap-5 justify-between">
           <Image
-            class="object-cover w-14 h-14 "
+            class="object-contain w-14 h-14 "
             alt={content?.alt}
             src={content?.avatar || ""}
             width={85}
