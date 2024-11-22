@@ -144,12 +144,13 @@
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
           }
         }
-      ]
+      ],
+      "title": "<p><span>Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef</span></p>"
     },
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "title": "<p><span>Quer saber como fazer pratos irresistíveis com nossos produtos? Confira nossos vídeos com algumas receitas exclusivas que vão transformar seu cardápio:</span></p>",
-      "titleSection": "<p>Receitas e Dicas Exclusivas</p>",
+      "titleSection": "Receitas e Dicas Exclusivas",
       "posts": [
         {
           "title": "Pizza com queijo muçarela Vida Veg",
@@ -163,13 +164,44 @@
           "title": "Pizza com queijo muçarela Vida Veg",
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/57f3c8ba-d89b-4622-9da4-b1976fbd7816/image-3.png"
         }
-      ]
+      ],
+      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Promotion.tsx",
-        "titlePage": "Promoção de Primeira Compra",
+        "titlePage": {
+          "0": "P",
+          "1": "r",
+          "2": "o",
+          "3": "m",
+          "4": "o",
+          "5": "ç",
+          "6": "ã",
+          "7": "o",
+          "8": " ",
+          "9": "d",
+          "10": "e",
+          "11": " ",
+          "12": "P",
+          "13": "r",
+          "14": "i",
+          "15": "m",
+          "16": "e",
+          "17": "i",
+          "18": "r",
+          "19": "a",
+          "20": " ",
+          "21": "C",
+          "22": "o",
+          "23": "m",
+          "24": "p",
+          "25": "r",
+          "26": "a",
+          "label": "alguma imagem",
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
+        },
         "content": "<p><strong><span style=\"color: #a1c342; font-size: 20pt\">A Vida Veg Chef oferece uma</span><span style=\"color: #ffffff; font-size: 20pt\"> oportunidade especial </span><span style=\"color: #a1c342; font-size: 20pt\">para novos clientes!</span></strong><span style=\"color: #a1c342; font-size: 20pt\"> </span><br><br><span style=\"color: #ffffff; font-size: 15pt\">Ao fazer o cadastro, </span><strong><span style=\"color: #a1c342; font-size: 15pt\">você ganha 15% OFF no primeiro pedido.</span></strong><br><br><span style=\"color: #ffffff; font-size: 18pt\"> </span><strong><span style=\"color: #ffffff; font-size: 18pt\">Conheça nossa linha de produtos e faça seu pedido!</span></strong></p>",
         "cta": {
           "label": "Faça seu pedido aqui",

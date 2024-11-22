@@ -3,13 +3,14 @@ import Image from "apps/website/components/Image.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 interface Props {
-    src?: ImageWidget;
     /**
 * @format rich-text
 * @default Click Oferecer produtos veganos no seu estabelecimento nunca foi tão fácil!
 Com a linha Vida Veg Chef, você contará com:.
 */
+    /** @title Titulo da sessão */
     title?: string;
+    /** @title Clique no + para adicionar novos cards */
     cards?: Cards[];
 
 }
@@ -19,11 +20,14 @@ Com a linha Vida Veg Chef, você contará com:.
  */
 
 interface Cards {
+    /** @title Icone do card */
+    /** @description Tamanho do icone  55x55 */
     icon?: ImageWidget;
     /**
 * @format rich-text
 * @default Click Recorrência de Clientes. A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente..
 */
+    /** @title clique para Atualizar o conteudo dos card */
     content?: string;
 }
 

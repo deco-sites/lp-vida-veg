@@ -5,13 +5,17 @@ import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
 
 /**
- * @titleBy alt
+ * @titleBy description
  */
-export interface Testimonial {
+export interface Cards {
+  /** @title Clique no + para adicionar um novo card*/
   content?: {
+    /** @title Adicionar um  texto*/
     description?: string;
+    /** @title Adicionar uma imagem*/
+    /** @description Texto alternativo da imagem */
     avatar?: ImageWidget;
-    /** @description Image's alt text */
+    /** @description Texto alternativo da imagem 85x50*/
     alt?: string;
   };
 }
@@ -19,10 +23,13 @@ export interface Testimonial {
 export interface Props {
   /**
  * @format rich-text
- * @default Click here to tweak this text however you want.
+ * @default Click Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef.
  */
+  /** @title titulo da sessão*/
+
   title?: string;
-  slides?: Testimonial[];
+  /** @title Clique no + para adicionar um novo card*/
+  slides?: Cards[];
 }
 
 const DEFAULT_PROPS = {

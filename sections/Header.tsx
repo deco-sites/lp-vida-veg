@@ -4,8 +4,11 @@ import Image from "apps/website/components/Image.tsx";
 import { useScript } from "@deco/deco/hooks";
 
 export interface Nav {
+  /** @title Logo do site */
   logo?: {
+
     src?: ImageWidget;
+    /** @title Texto alternativo do logo?*/
     alt?: string;
   };
 }

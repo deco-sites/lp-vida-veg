@@ -11,21 +11,29 @@ import Icon from "../components/ui/Icon.tsx";
  * @titleBy title
  */
 export interface Post {
+  /** @title Titulo do post */
   title: string;
+  /** @title imagem de fundo do post */
+  /** @description Tamanho da imagem  320x260 */
   image: ImageWidget;
 }
 
 export interface Props {
+  /** @title Icone do titulo da sessão */
+  /** @description Tamanho do icone  24x24 */
+  icon?: ImageWidget;
   /**
-* @format rich-text
 * @default Click Receitas e Dicas Exclusivas.
 */
+  /** @title Titulo da sessão */
   titleSection?: string;
   /**
  * @format rich-text
  * @default Click here to tweak this text however you want.
  */
+  /** @title Conteúdo da sessão */
   title?: string;
+  /** @title Clique no + para adicionar novas Posts */
   posts?: Post[];
 }
 
@@ -55,25 +63,20 @@ function SlideItem({ post }: { post: Post }) {
 }
 
 export default function BlogPosts({
-  title = "Here's a component for you to showcase your blog posts",
   titleSection = "Receitas e Dicas Exclusivas",
+  icon,
+  title = "Here's a component for you to showcase your blog posts",
   posts = [
     {
       title: "Pizza com queijo muçarela Vida Veg",
-      description:
-        "Use nossa muçarela de castanha de caju em pizzas que vão agradar ao paladar dos seus clientes.",
       image: DEFAULT_IMAGE,
     },
     {
       title: "Pizza com queijo muçarela Vida Veg",
-      description:
-        "Use nossa muçarela de castanha de caju em pizzas que vão agradar ao paladar dos seus clientes.",
       image: DEFAULT_IMAGE,
     },
     {
       title: "Pizza com queijo muçarela Vida Veg",
-      description:
-        "Use nossa muçarela de castanha de caju em pizzas que vão agradar ao paladar dos seus clientes.",
       image: DEFAULT_IMAGE,
     }
   ],
@@ -86,8 +89,8 @@ export default function BlogPosts({
         <div class="lg:w-2/5 lg:flex lg:items-center mx-4 py-[48px] lg:py-0">
           <div class="flex flex-col gap-7">
             <div class="flex gap-1 items-center">
-              <Icon id="IconFood" width={24} height={24} />
-              <p  dangerouslySetInnerHTML={{__html: titleSection}} class="font-bold text-sm text-primary"></p>
+              <Image src={icon || ''} width={24} height={24} />
+              <p class="font-bold text-sm text-primary">{titleSection}</p>
             </div>
             <div
               class="text-[28px] leading-[36px] lg:text-5xl font-bold "

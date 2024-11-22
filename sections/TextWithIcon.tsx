@@ -3,25 +3,31 @@ import Image from "apps/website/components/Image.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 interface Props {
+    /** @title Titulo da sessão*/
     title?: string;
     /**
    * @format rich-text
    */
+    /** @title Descrição da sessão*/
     description?: string;
+    /** @title Clique no + para adicionar um novo card*/
     cards?: Card[];
 }
 /**
  * @titleBy text
  */
 interface Card {
+    /** @title Imagem do card*/
+    /** @description Tamanho da imagem 55x55*/
     icon?: ImageWidget;
     /**
      * @format rich-text
      * @default Click here to tweak this text however you want.
      */
     /**
-     * @title
+     * @title texto do card
      */
+
     text?: string;
 }
 export function LoadingFallback() {

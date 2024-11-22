@@ -7,6 +7,7 @@ export interface Props {
    * @format rich-text
    * @default Click here to tweak this text however you want.
    */
+  /** @title Titulo do Banner */
   title?: string;
   /**
    * @default This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.
@@ -15,8 +16,13 @@ export interface Props {
  * @format rich-text
  * @default Click here to tweak this text however you want.
  */
+  /** @title Descrição do Banner */
   description?: string;
+  /** @title Imagem de fundo mobile */
+  /** @description Altura da imagem 600 */
   imageMobile?: ImageWidget;
+  /** @title Imagem de fundo desktop */
+  /** @description Altura da imagem 750 */
   imageDesktop?: ImageWidget;
 }
 

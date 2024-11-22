@@ -5,23 +5,21 @@ import { useDevice } from "@deco/deco/hooks";
 
 
 
-export interface Column {
-  title: string;
-  items: Items[];
-}
-
-
 /**
  * @titleBy alt
  */
 
 export interface Items {
+  /** @title Icone do selo*/
+  /** @description Tamanho do icone  46 x 46 */
   src: ImageWidget;
+  /** @title Texto alternativo*/
   alt: string;
 }
 
 export interface Subscribe {
   /** @format rich-text */
+  /** @title Texto newsletter */
   title: string;
 }
 
@@ -30,24 +28,37 @@ export interface Subscribe {
  */
 
 export interface Social {
+  /** @title Escolha uma rede social  */
   network: "Facebook" | "Instagram" | "Linkedin" | "X - Twitter" | "Youtube";
+  /** @title Link da rede social  */
   href: string;
 }
 
 export interface Props {
+  /** @title Adicionar um logo ? */
   logo?: {
+    /** @description Tamanho da logo  117 x 115 */
     src?: ImageWidget;
+    /** @title Texto alternativo */
     alt?: string;
   };
-  links?: Column[];
+  /** @title Texto newsletter */
   subscribe?: Subscribe;
+  /** @title Logo da agência */
   madeWith?: {
-    label?: string;
+    /** @title Logo da agência */
+    /** @description Tamanho da logo  127 x 86 */
     src?: ImageWidget;
+    /** @title Link logo da agência */
     href?: string;
+    /** @title Texto alternativo logo da agência */
+    label?: string;
   };
+  /** @title Texto copyright */
   copyright?: string;
+  /** @title Clique no + para adicionar novos selos */
   seals?: Items[];
+  /** @title Clique no + para adicionar uma nova rede social*/
   social?: Social[];
 }
 

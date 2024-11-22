@@ -3,23 +3,35 @@ import Icon from "../components/ui/Icon.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 interface Props {
+  /** @title Titulo da sessão */
   titlePage?: string;
+  /** @title Clique no + para adicionar novas tags */
+  /**
+   * @format rich-text
+   * @default Click here to tweak this text however you want.
+   */
+  /** @title Texto da sessão */
+  content?: string;
+  tags?: string[];
+
+  /** @title Clique no + para adicionar novos cards de percentual */
   cards?: PercentageProps[];
   /**
    * @format rich-text
    * @default Click here to tweak this text however you want.
-   */
+  */
+  /** @title Fonte */
   font?: string;
-  /**
-   * @format rich-text
-   * @default Click here to tweak this text however you want.
-   */
-  content?: string;
-  tags?: string[];
 }
 
+
+/**
+ * @titleBy text
+ */
 interface PercentageProps {
+    /** @title insira apenas o numero do percentual */
   percentage?: number;
+      /** @title insira apenas o texto relacionado a esse percentual */
   text?: string;
 }
 

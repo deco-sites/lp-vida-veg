@@ -4,28 +4,40 @@ import Icon from "../components/ui/Icon.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 export interface CTA {
-  id?: string;
-  href: string;
+  /** @title Texto do botão */
   text: string;
+  /** @title Link do botão */
+  href: string;
 }
 
-export interface Tagline {
+export interface TitleSection {
+  /** @title Icone da tag */
+  /** @description Tamanho do icone 24x24 */
+  icon?: ImageWidget;
+  /** @title Texto da tag */
   label?: string;
 }
 
 export interface Props {
+  /** @title Titulo da sessão */
+  titleSection?: TitleSection;
   /**
  * @format rich-text
  * @default Click here to tweak this text however you want.
  */
+  /** @title Conteudo da sessão*/
   title?: string;
   /**
 * @format rich-text
 * @default Click here to tweak this text however you want.
 */
+  /** @title Conteudo da sessão*/
   description?: string;
+  /** @title Imagem da sessão*/
+  /** @description Tamanho da imagem  532x356 */
   src?: ImageWidget;
-  tagline?: Tagline;
+
+
 }
 
 
@@ -37,7 +49,7 @@ export default function ImageWithParagraph({
   // titlePlacement = "left",
   description =
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
-  tagline,
+  titleSection,
   src = DEFAULT_IMAGE,
 }: Props) {
   const device = useDevice();
@@ -49,9 +61,9 @@ export default function ImageWithParagraph({
         >
           <div class="flex flex-col gap-7 lg:w-2/5">
             <div class="flex items-center gap-1 flex-row">
-              <Icon id="About" width={24} height={24} />
+              <Image src={titleSection?.icon || ''} width={24} height={24} />
               <p class="text-sm font-semibold text-white lg:leading-4">
-                {tagline?.label}
+                {titleSection?.label}
               </p>
             </div>
             <div class="text-4xl leading-6"
