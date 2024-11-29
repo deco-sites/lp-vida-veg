@@ -1,8 +1,8 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import Icon from "../components/ui/Icon.tsx";
-import Slider from "../components/ui/Slider.tsx";
 import { useId } from "../sdk/useId.ts";
+import { useScript } from "@deco/deco/hooks";
 
 /**
  * @titleBy description
@@ -84,18 +84,15 @@ const DEFAULT_PROPS = {
 };
 
 function SliderItem(
-  { slide, id }: { slide: Testimonial; id: string },
+  { slide }: { slide: Testimonial; },
 ) {
   const {
     content,
   } = slide;
 
   return (
-    <div
-      id={id}
-      class="relative overflow-y-hidden  min-h-[292px]"
-    >
-      <div class="flex flex-col gap-5 p-5 border border-base-content rounded-large h-full min-h-[464px] max-w-[324px]">
+    <div class="swiper-slide w-full max-w-[80vw] lg:max-w-[324px] !h-auto">
+      <div class="flex flex-col gap-5 p-5 border border-base-content rounded-large h-full">
         <div class="flex items-center gap-5 justify-between">
           <Image
             class="object-contain w-14 h-14 "
@@ -106,65 +103,7 @@ function SliderItem(
           />
           <Icon id="newHeart" width={24} height={24} />
         </div>
-        <p class="text-lg">{content?.description}</p>
-      </div>
-    </div>
-  );
-}
-
-function Dots({ slides }: Props) {
-  return (
-    <>
-      <style
-        dangerouslySetInnerHTML={{
-          __html: `
-          @property --dot-progress {
-            syntax: '<percentage>';
-            inherits: false;
-            initial-value: 0%;
-          }
-          `,
-        }}
-      />
-      {/* <ul class="carousel col-span-full gap-3 z-10">
-        {slides?.map((_, index) => (
-          <li class="carousel-item">
-            <Slider.Dot index={index}>
-              <div class="py-5">
-                <div
-                  class="w-2 h-2 rounded-full group-disabled:animate-progress dot"
-                />
-              </div>
-            </Slider.Dot>
-          </li>
-        ))}
-      </ul> */}
-    </>
-  );
-}
-
-function Buttons() {
-  return (
-    <div class="flex gap-4">
-      <div class="flex items-center justify-center z-10 col-start-1 row-start-2">
-        <Slider.PrevButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
-            size={24}
-            id="ArrowRight"
-            strokeWidth={3}
-          />
-        </Slider.PrevButton>
-      </div>
-      <div class="flex items-center justify-center z-10 col-start-3 row-start-2">
-        <Slider.NextButton class="flex items-center justify-center btn-circle border border-base-content">
-          <Icon
-            class="text-base-content"
-            size={24}
-            id="ArrowLeft"
-            strokeWidth={3}
-          />
-        </Slider.NextButton>
+        <p class="text-sm lg:text-base text-wrap">{content?.description}</p>
       </div>
     </div>
   );
@@ -175,34 +114,44 @@ function Carousel(props: Props) {
   const { title, slides } = { ...DEFAULT_PROPS, ...props };
 
   return (
-    <div
-      id={id}
-      class="min-h-min flex flex-col lg:container mx-4 gap-7"
-    >
-      <div class="flex justify-center lg:text-4xl lg:leading-[48px] text-[28px] text-accent-content font-bold text-start lg:text-center lg:max-w-[600px] lg:mx-auto" dangerouslySetInnerHTML={{ __html: title }} />
-      <Slider
-        class="carousel carousel-center w-full col-span-full row-span-full gap-6"
-        rootId={id}
-        // interval={interval && interval * 1e3}
-        infinite
-      >
-        {slides?.map((slide, index) => (
-          <Slider.Item
-            index={index}
-            class="carousel-item max-w-[334px] w-full"
-          >
+    <div class="overflow-hidden">
+      <div class="flex flex-col container gap-7">
+        <div class="flex justify-center lg:text-4xl text-2xl text-accent-content font-bold text-start lg:text-center lg:w-[600px] lg:mx-auto mb-4" dangerouslySetInnerHTML={{ __html: title }} />
+      </div>
+      <div id={id}>
+        <div class="swiper-wrapper items-stretch">
+          {slides?.map((slide) => (
             <SliderItem
               slide={slide}
-              id={`${id}::${index}`}
             />
-          </Slider.Item>
-        ))}
-      </Slider>
-
-      {/* <div class="flex justify-between pt-8 lg:px-16">
-        {props.dots && <Dots slides={slides} interval={interval} />}{" "}
-        {props.arrows && <Buttons />}
-      </div>  */}
+          ))}
+        </div>
+      </div>
+      <script
+        type="text/javascript"
+        defer
+        dangerouslySetInnerHTML={{
+          __html: useScript((id) => {
+            // @ts-ignore .
+            new Swiper(`#${id}`, {
+              slidesPerView: "auto",
+              centeredSlides: true,
+              initialSlide: 0,
+              spaceBetween: 8,
+              autoHeight: false,
+              freeMode: true,
+              breakpoints: {
+                640: {
+                  initialSlide: 1,
+                  spaceBetween: 30,
+                }
+              },
+              centerInsufficientSlides: true,
+              grabCursor: true,
+            });
+          }, id)
+        }}
+      />
     </div>
   );
 }

@@ -45,22 +45,18 @@ export default function HeroFlats({
       height: ` ${device === 'mobile' ? '600px' : '750px'}`
     }}>
 
-      <div class="lg:container lg:mx-auto mx-4 h-full flex items-center">
+      <div class="container h-full flex items-center">
         <div class="flex flex-col items-center gap-8">
-          <div
-            class={`flex w-full xl:container py-20 mx-5 md:mx-10 z-10  lg:py-36 gap-12 md:gap-20 items-center`}
-          >
-            <div
-              class={`lg:mr-auto lg:max-w-[560px] lg:w-full space-y-4 gap-4`}
-            >
+          <div class="flex w-full py-20 mx-5 md:mx-10 z-10 lg:py-36 gap-12 md:gap-20 items-center">
+            <div class="lg:mr-auto lg:max-w-[560px] lg:w-full space-y-4 gap-4">
               <div
-                class="inline-block  lg:text-[60px] text-5xl leading-none font-medium lg:leading-[64px]"
+                class="inline-block lg:text-5xl text-4xl leading-none font-bold"
                 dangerouslySetInnerHTML={{
                   __html: title,
                 }}
               >
               </div>
-              <div class="lg:text-xl lg:mt-6 lg:leading-6 text-[17px]"
+              <div class="lg:text-xl lg:mt-6 text-lg"
                 dangerouslySetInnerHTML={{ __html: description }} />
             </div>
           </div>

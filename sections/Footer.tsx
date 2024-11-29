@@ -90,9 +90,9 @@ export default function Footer({
   const device = useDevice()
   return (
     <div class="bg-primary">
-      <div class="lg:container text-sm py-10 px-5 lg:px-0">
+      <div class="container text-sm py-12">
         <div class="flex flex-col">
-          <div class="flex flex-col gap-11 justify-between lg:flex-row">
+          <div class="flex flex-col gap-5 justify-between lg:flex-row">
             <div>
               <div class="flex flex-col items-center">
 
@@ -104,16 +104,14 @@ export default function Footer({
                 />
                 <>
                   {device === 'desktop' &&
-                    <div class="flex lg:gap-6 lg:mt-8">
+                    <div class="flex lg:gap-6 lg:mt-4">
                       {seals && seals.map((item) => (
                         <img
                           class="lg:w-[46px] lg:h-[46px] cover"
                           src={item?.src}
                           alt={item?.alt}
                         />
-
-                      ))
-                      }
+                      ))}
                     </div>
                   }
                 </>
@@ -180,30 +178,28 @@ export default function Footer({
                   </a>
                 ))}
               </div>
-              <h4 dangerouslySetInnerHTML={{ __html: subscribe?.title }} class="font-semibold text-base mt-[45px] lg:mt-[50px] lg:mb-[30px] mb-[20px] text-center" />
-              <form class="flex flex-col gap-4 w-full">
-                <div class="flex flex-col gap-4 items-end">
-                  <div class="border border-base flex p-4 rounded-full w-full">
-                    <input
-                      type="text"
-                      placeholder="Seu nome"
-                      class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
-                    />
-                  </div>
-                  <div class="border border-base flex p-4 rounded-full lg:max-w-[303px] w-full">
-                    <input
-                      type="text"
-                      placeholder="Seu e-mail"
-                      class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
-                    />
-                    <button
-                      type="submit"
-                      class="text-accent-content font-bold text-sm bg-transparent"
-                      aria-label="Subscribe"
-                    >
-                      Cadastrar
-                    </button>
-                  </div>
+              <h4 dangerouslySetInnerHTML={{ __html: subscribe?.title }} class="font-semibold text-base mt-4 mb-2 text-center" />
+              <form class="flex flex-col gap-2 items-end">
+                <div class="border border-base flex p-4 rounded-full w-full">
+                  <input
+                    type="text"
+                    placeholder="Seu nome"
+                    class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
+                  />
+                </div>
+                <div class="border border-base flex p-4 rounded-full lg:max-w-[303px] w-full">
+                  <input
+                    type="text"
+                    placeholder="Seu e-mail"
+                    class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
+                  />
+                  <button
+                    type="submit"
+                    class="text-accent-content font-bold text-sm bg-transparent"
+                    aria-label="Subscribe"
+                  >
+                    Cadastrar
+                  </button>
                 </div>
               </form>
               <>
@@ -223,7 +219,7 @@ export default function Footer({
               </>
             </div>
           </div>
-          <div class="flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center lg:mt-16">
+          <div class="flex flex-col gap-4 items-center justify-between lg:flex-row lg:items-center lg:mt-8">
             <div class="flex flex-col gap-[45px] items-center lg:flex-row lg:gap-2">
               <span class="text-base-200">{copyright}</span>
               <a

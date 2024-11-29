@@ -43,12 +43,12 @@ const TextWithIcon = ({
     return (
         <>
             <div class="container">
-                <div class=" overflow-hidden py-[48px] flex flex-col gap-7 mx-4">
-                    <div class="flex flex-col gap-7 text-center lg:py-8">
-                        <h4 class="text-5xl text-accent-content font-bold  text-start lg:text-center ">{title}</h4>
+                <div class="overflow-hidden flex flex-col gap-7">
+                    <div class="flex flex-col gap-7 text-center">
+                        <h4 class="text-3xl lg:text-4xl text-accent-content font-bold text-start lg:text-center">{title}</h4>
                         <div class="text-start lg:text-center" dangerouslySetInnerHTML={{ __html: description || '' }} />
                     </div>
-                    <div class="container flex flex-col lg:flex-row justify-center gap-4 ">
+                    <div class="flex flex-col lg:flex-row justify-center gap-4 ">
                         {cards &&
                             cards.map((item) => (
                                 <div class="p-8 border border-primary rounded-xl lg:max-w-[261px] w-full flex flex-col items-center text-center gap-2">
@@ -63,7 +63,7 @@ const TextWithIcon = ({
                                         />
                                     )}
                                     {item.text && (
-                                        <p class="lg:text-xl" dangerouslySetInnerHTML={{ __html: item.text }} />
+                                        <p class="text-lg lg:text-xl text-dark-green" dangerouslySetInnerHTML={{ __html: item.text }} />
                                     )}
                                 </div>
                             ))}

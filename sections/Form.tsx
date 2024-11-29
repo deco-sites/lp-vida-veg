@@ -1,137 +1,101 @@
-import { useScript } from "@deco/deco/hooks";
-import type { AppContext } from '../apps/site.ts'
-
-export function LoadingFallback() {
-    return <div className="skeleton rounded-none h-[130px] lg:h-[109px]" />;
-}
-
-export default function Form({
-    toast = null,
-    message = "Formulario enviado com sucesso!",
-}: {
-    toast?: HTMLElement | null;
-    message?: string;
-}) {
-
-    const onLoad = () => {
-
-        (document.getElementById("phone") as HTMLInputElement).oninput = (e) => {
-            const target = e.currentTarget as HTMLInputElement;
-            const value = target.value.replace(/\D/g, "");
-            if (value.length > 10) {
-                target.value = value.replace(/(\d{2})(\d{5})(\d{4})/, "($1) $2-$3");
-            } else {
-                target.value = value.replace(/(\d{2})(\d{4})(\d{4})/, "($1) $2-$3");
-            }
-        };
-
-    };
-
+const Form = () => {
     return (
-        <div>
-            <div className="container px-5 lg:px-0 py-[50px] mx-auto lg:max-w-[736px]">
-                <h1 className="text-start lg:text-center font-bold text-accent-content text-[36px] leading-[42px]">
-                    Faça seu cadastro e receba nosso catálogo Vida Veg Chef completo!
-                </h1>
+        <div class="px-4 mx-auto lg:max-w-3xl">
+            <h1 class="text-start lg:text-center font-bold text-accent-content text-4xl lg:text-5xl">
+                Faça seu cadastro e receba nosso catálogo Vida Veg Chef completo!
+            </h1>
 
-                <div id="toast" className="toast toast-end"></div>
+            <form
+                hx-post="/api/submit-form"
+                hx-target="#response-message"
+                hx-swap="innerHTML"
+                class="mt-8 bg-white mx-auto"
+            >
+                <div class="mt-5">
+                    <label for="email" class="block text-sm font-bold text-base-content">
+                        E-mail
+                    </label>
+                    <input
+                        id="email"
+                        name="email"
+                        type="email"
+                        placeholder="Ex: email@email.com"
+                        required
+                        class="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
+                    />
+                </div>
 
-                <form
-                    hx-post="/api/register"
-                    hx-target="#toast"
-                    hx-swap="innerHTML"
-                    hx-indicator=".form-loading"
-                    className="mt-8 bg-white mx-auto"
-                >
-                    <div className="mt-5">
-                        <label htmlFor="email" className="block text-sm font-bold text-base-content">
-                            E-mail
+                <div class="flex flex-col lg:flex-row lg:gap-5">
+                    <div class="lg:w-1/2 mt-5">
+                        <label for="first-name" class="block text-sm font-bold text-base-content">
+                            Primeiro nome
                         </label>
                         <input
-                            id="email"
-                            name="email"
-                            type="email"
-                            placeholder="Ex: email@email.com"
+                            id="first-name"
+                            name="first-name"
+                            type="text"
+                            placeholder="Ex: Maria"
                             required
                             className="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
                         />
                     </div>
-
-                    <div className="flex flex-row gap-5">
-                        <div className="sm:w-1/2 mt-5">
-                            <label htmlFor="first-name" className="block text-sm font-bold text-base-content">
-                                Primeiro nome
-                            </label>
-                            <input
-                                id="firstName"
-                                name="firstName"
-                                type="text"
-                                placeholder="Ex: Maria"
-                                required
-                                className="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
-                            />
-                        </div>
-                        <div className="sm:w-1/2 mt-5">
-                            <label htmlFor="last-name" className="block text-sm font-bold text-base-content">
-                                Último nome
-                            </label>
-                            <input
-                                id="lastName"
-                                name="lastName"
-                                type="text"
-                                required
-                                className="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
-                            />
-                        </div>
-                    </div>
-
-                    <div className="mt-5">
-                        <label htmlFor="phone" className="block text-sm font-bold text-base-content">
-                            Telefone
+                    <div class="lg:w-1/2 mt-5">
+                        <label for="last-name" class="block text-sm font-bold text-base-content">
+                            Último nome
                         </label>
                         <input
-                            id="phone"
-                            name="phone"
-                            type="tel"
-                            placeholder="(00) 00000-0000"
+                            id="last-name"
+                            name="last-name"
+                            type="text"
                             required
                             className="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
                         />
                     </div>
+                </div>
 
-                    <div className="mt-5">
-                        <label htmlFor="establishment-type" className="block text-sm font-bold text-base-content">
-                            Tipo de Estabelecimento
-                        </label>
-                        <select
-                            id="establishmentType"
-                            name="establishmentType"
-                            required
-                            className="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
-                        >
-                            <option value="">Escolha seu segmento</option>
-                            <option value="restaurant">Restaurante</option>
-                            <option value="market">Mercado</option>
-                            <option value="other">Outro</option>
-                        </select>
-                    </div>
+                <div class="mt-5">
+                    <label for="phone" class="block text-sm font-bold text-base-content">
+                        Telefone
+                    </label>
+                    <input
+                        id="phone"
+                        name="phone"
+                        type="tel"
+                        placeholder="(00) 00000-0000"
+                        required
+                        class="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
+                    />
+                </div>
 
-                    <button
-                        type="submit"
-                        className="w-full bg-primary text-white py-4 px-4 rounded-full font-bold mt-5 form-loading"
+                <div class="mt-5">
+                    <label
+                        for="establishment-type"
+                        class="block text-sm font-bold text-base-content"
                     >
-                        Enviar
-                    </button>
-                </form>
-                <script
-                    type="text/javascript"
-                    defer
-                    dangerouslySetInnerHTML={{
-                        __html: useScript(onLoad),
-                    }}
-                />
-            </div>
+                        Tipo de Estabelecimento
+                    </label>
+                    <select
+                        id="establishment-type"
+                        name="establishment-type"
+                        required
+                        class="mt-1 block w-full border border-base-300 rounded-full sm:text-sm h-[48px] px-3 outline-none"
+                    >
+                        <option value="">Escolha seu segmento</option>
+                        <option value="restaurant">Restaurante</option>
+                        <option value="market">Mercado</option>
+                        <option value="other">Outro</option>
+                    </select>
+                </div>
 
+                <button
+                    type="submit"
+                    class="w-full bg-primary text-white py-4 px-4 rounded-full font-bold mt-5"
+                >
+                    Enviar
+                </button>
+            </form>
+
+            {/* <div id="response-message" class="mt-4 text-center"></div> */}
         </div>
     );
 };

@@ -20,6 +20,21 @@
     -moz-appearance: textfield;
     appearance: textfield;
   }
+
+  
+
+  .container {
+    margin-left: auto;
+    margin-right: auto;
+    padding-left: 16px;
+    padding-right: 16px;
+    max-width: 100%;
+
+    @screen lg {
+      padding: 0 30px;
+      max-width: 1360px;
+    }
+  }
 }
 
 @layer components {
@@ -72,4 +87,13 @@
 ::-webkit-scrollbar-thumb {
   background: #194735; 
   border-radius: 10px;
+}
+
+.fluid-text p {
+  margin: 12px 0;
+}
+
+.fluid-text mark {
+  padding: 3px 12px;
+  border-radius: 9999px;
 }

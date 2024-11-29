@@ -1,14 +1,14 @@
 export function LoadingFallback() {
     return (
         <div
-            style={{ height: "2rem" }}
+            style={{ height: "1rem" }}
         />
     );;
 }
 export default function Spacer() {
     return (
         <div
-            style={{ height: "2rem" }}
+            style={{ height: "1rem" }}
         />
     );
 }

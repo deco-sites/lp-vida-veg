@@ -1,6 +1,5 @@
 import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
-import Icon from "../components/ui/Icon.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 export interface CTA {
@@ -10,11 +9,11 @@ export interface CTA {
   href: string;
 }
 
-export interface TitleSection {
-  /** @title Icone da tag */
-  /** @description Tamanho do icone 24x24 */
+export interface Tagline {
+  /**
+   * @description Suba uma imagem 24x24
+   */
   icon?: ImageWidget;
-  /** @title Texto da tag */
   label?: string;
 }
 
@@ -36,8 +35,6 @@ export interface Props {
   /** @title Imagem da sessão*/
   /** @description Tamanho da imagem  532x356 */
   src?: ImageWidget;
-
-
 }
 
 
@@ -54,19 +51,26 @@ export default function ImageWithParagraph({
 }: Props) {
   const device = useDevice();
   return (
-    <div class="bg-base-content py-[48px] lg:py-0">
-      <div class="lg:container mx-4 text-sm">
+    <div class="bg-base-content">
+      <div class="container py-8 text-sm">
         <div
-          class={`flex flex-col lg:flex-row text-left justify-between items-center z-10 `}
+          class="flex flex-col lg:flex-row text-left justify-between items-center z-10"
         >
           <div class="flex flex-col gap-7 lg:w-2/5">
             <div class="flex items-center gap-1 flex-row">
-              <Image src={titleSection?.icon || ''} width={24} height={24} />
+              {tagline?.icon && (
+                <Image
+                  src={tagline.icon}
+                  width={24}
+                  height={24}
+                />
+              )}
               <p class="text-sm font-semibold text-white lg:leading-4">
                 {titleSection?.label}
               </p>
             </div>
-            <div class="text-4xl leading-6"
+            <div 
+              class="text-xl lg:text-2xl"
               dangerouslySetInnerHTML={{ __html: title }}
             />
             {device === 'mobile' &&
@@ -80,10 +84,13 @@ export default function ImageWithParagraph({
                 loading="lazy"
               />
             }
-            <div class="text-4xl leading-6" dangerouslySetInnerHTML={{ __html: description }} />
+            <div 
+              class="text-xl lg:text-2xl" 
+              dangerouslySetInnerHTML={{ __html: description }} 
+            />
           </div>
           {device === 'desktop' &&
-            <div class="py-[37px]">
+            <div>
               <img
                 width={532}
                 height={356}
@@ -95,7 +102,6 @@ export default function ImageWithParagraph({
               />
             </div>
           }
-
         </div>
       </div>
     </div>
