@@ -7,11 +7,30 @@
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
-      "title": "<p><span style=\"color: #ffffff\">Faz bem para o mundo, faz bem para o seu negócio</span></p>",
-      "cta": [],
+      "title": "Chegou Vida Veg Chef",
+      "cta": {},
       "description": "<p><span style=\"color: #ffffff\">Se diferencie e destaque&nbsp;o potencial do seu cardápio com </span><strong><span style=\"color: #a1c342\">produtos saudáveis</span></strong><span style=\"color: #ffffff\"> que atendem às demandas crescentes por </span><strong><span style=\"color: #a1c342\">alimentação consciente e mais inclusiva.</span></strong></p>",
       "imageMobile": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/07acd649-98aa-4890-949c-90573e9939c3/Frame-5.png",
-      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/64ab47d2-26b5-46c0-9489-c693fb828135/Frame-5.png"
+      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/7c645e85-47d8-4f1e-a5a2-8c0dc4162d52/fundo.png",
+      "tagline": [
+        {
+          "text": "Restaurantes"
+        },
+        {
+          "text": "Bares e Lanchonetes"
+        },
+        {
+          "text": "Cruzeiros"
+        },
+        {
+          "text": "Hotéis e Resorts"
+        },
+        {
+          "text": "Indústrias de Alimentos"
+        }
+      ],
+      "subtitle": "Faz bem para o mundo, faz bem para o seu negócio",
+      "paragraph": "<p><span style=\"color: #ffffff\">Se diferencie e destaque o potencial do seu cardápio com</span><span> </span><strong><span style=\"color: #a1c342\">produtos saudáveis e plant-based.</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -27,6 +46,48 @@
       "disableSpacing": {
         "top": false,
         "bottom": false
+      },
+      "cta": {
+        "text": "<p>Cadastre-se e <strong>ganhe 15% OFF</strong></p>",
+        "href": "/"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/OurProducts.tsx",
+        "title": "Nossos produtos",
+        "cards": [
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5efcc60c-80b5-43e5-8574-58e274b7a1e4/Ellipse-2.svg",
+            "label": "QueijoVeg Parmesão"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/980984f0-1a35-4ae6-90d6-05eabeaba626/Ellipse-3.svg",
+            "label": "QueijoVeg Muçarela"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ae82356a-1812-4b1d-9249-6e82a0990f87/Ellipse-4.svg",
+            "label": "Mousse chocolate"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f509a22-7863-4279-aca0-e42753ae153f/Ellipse-5.svg",
+            "label": "RequeVeg Requeijão"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
+            "label": "Manteiga castanha de caju"
+          },
+          {
+            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
+            "label": "Requeijão castanha de caju"
+          }
+        ],
+        "subtitle": "<p style=\"text-align: center\">Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
+        "cta": {
+          "label": "Conheça todos os produtos",
+          "link": "/"
+        }
       }
     },
     {
@@ -39,8 +100,6 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/TextWithIcon.tsx",
-        "title": "Um novo futuro começa agora!",
-        "description": "<p><strong><span>Abraçamos a sustentabilidade.</span></strong><span> Cada escolha impacta diretamente o todo,<br>e é assim que cultivamos um mundo mais verde e inclusivo.</span></p>",
         "cards": [
           {
             "text": "<p><span>Produtos 100% </span><strong><span>vegetais, saudáveis</span></strong><span>, saborosos e sustentáveis</span></p>",
@@ -58,7 +117,9 @@
             "text": "<p><strong><span>Suporte contínuo com receitas e dicas</span></strong><span> de como usar nossos produtos</span></p>",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ba66fb67-8f6d-4f78-b94f-c4679f57f400/apoio-suporte.svg"
           }
-        ]
+        ],
+        "title": "Um novo futuro começa agora!",
+        "description": "<p><strong><span>Abraçamos a sustentabilidade.</span></strong><span> Cada escolha impacta diretamente o todo,<br>e é assim que cultivamos um mundo mais verde e inclusivo.</span></p>"
       }
     },
     {
@@ -144,6 +205,7 @@
     },
     {
       "__resolveType": "site/sections/Testimonials.tsx",
+      "title": "<p><span>Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef</span></p>",
       "arrows": true,
       "slides": [
         {
@@ -176,8 +238,7 @@
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
           }
         }
-      ],
-      "title": "<p><span>Parceiros que Já Aumentaram suas Vendas com Vida Veg Chef</span></p>"
+      ]
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

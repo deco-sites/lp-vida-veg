@@ -6,5 +6,77 @@
   },
   "logo": {
     "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
-  }
+  },
+  "menus": [
+    {
+      "label": "a vida veg"
+    },
+    {
+      "label": "produtos"
+    },
+    {
+      "label": "blog"
+    },
+    {
+      "label": "receitas"
+    },
+    {
+      "label": "contato",
+      "isBold": true
+    },
+    {
+      "label": "onde encontrar",
+      "isBold": true
+    }
+  ],
+  "menu": [
+    {
+      "label": "A Vida Veg"
+    },
+    {
+      "label": "Produtos"
+    },
+    {
+      "link": "Blog",
+      "label": "Blog"
+    },
+    {
+      "label": "Receitas"
+    },
+    {
+      "isBold": true,
+      "label": "Contato"
+    },
+    {
+      "isBold": true,
+      "label": "Onde encontrar"
+    }
+  ],
+  "social": [
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/8d40ce70-f6df-4d45-adaa-24c83bfa3b65/bg-linkedin.svg",
+      "label": "Linkedin",
+      "href": "/"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/22f4bfc9-3f07-4fdb-8cc8-a06f5bc7d144/bg-face.png",
+      "label": "Facebook",
+      "href": "/"
+    },
+    {
+      "label": "Youtube",
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1714b39c-a0db-4285-b35a-0af8c0e32e9b/bg-youtube.svg",
+      "href": "/"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/a0e116d0-c695-4d43-a8f8-8ab2f0c61d25/bg-insta.svg",
+      "label": "Instagram",
+      "href": "/"
+    },
+    {
+      "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c212a633-ce43-438b-a6fc-cde08583c7b3/bg-twitter.svg",
+      "label": "Twitter",
+      "href": "/"
+    }
+  ]
 }

@@ -1,20 +1,16 @@
-import type { ImageWidget } from "apps/admin/widgets.ts";
 import Image from "apps/website/components/Image.tsx";
 import { useDevice } from "@deco/deco/hooks";
+import { TitleSection } from "site/sections/Promotion.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
 export interface CTA {
-  /** @title Texto do botão */
+  /**
+  * @title Texto do botão 
+  * @format rich-text
+  */
   text: string;
   /** @title Link do botão */
   href: string;
-}
-
-export interface Tagline {
-  /**
-   * @description Suba uma imagem 24x24
-   */
-  icon?: ImageWidget;
-  label?: string;
 }
 
 export interface Props {
@@ -37,7 +33,6 @@ export interface Props {
   src?: ImageWidget;
 }
 
-
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/772e246e-1959-46ac-a309-3f25ab20af6f";
 
@@ -48,6 +43,7 @@ export default function ImageWithParagraph({
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   titleSection,
   src = DEFAULT_IMAGE,
+  cta,
 }: Props) {
   const device = useDevice();
   return (
@@ -58,9 +54,9 @@ export default function ImageWithParagraph({
         >
           <div class="flex flex-col gap-7 lg:w-2/5">
             <div class="flex items-center gap-1 flex-row">
-              {tagline?.icon && (
+              {titleSection?.icon && (
                 <Image
-                  src={tagline.icon}
+                  src={titleSection.icon}
                   width={24}
                   height={24}
                 />
