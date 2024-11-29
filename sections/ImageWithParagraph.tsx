@@ -4,7 +4,10 @@ import Icon from "../components/ui/Icon.tsx";
 import { useDevice } from "@deco/deco/hooks";
 
 export interface CTA {
-  /** @title Texto do botão */
+  /**
+  * @title Texto do botão 
+  * @format rich-text
+  */
   text: string;
   /** @title Link do botão */
   href: string;
@@ -36,6 +39,11 @@ export interface Props {
   /** @title Imagem da sessão*/
   /** @description Tamanho da imagem  532x356 */
   src?: ImageWidget;
+  /**
+   *  @title Configurar CTA
+  */
+
+  cta?: CTA;
 
 
 }
@@ -51,10 +59,11 @@ export default function ImageWithParagraph({
   "This text is fully editable and ready for your personal touch. Just click here, head over to the section window, or dive straight into the code to make changes as you see fit. Whether it's about the content, formatting, font, or anything in between, editing is just a click away.",
   titleSection,
   src = DEFAULT_IMAGE,
+  cta,
 }: Props) {
   const device = useDevice();
   return (
-    <div class="bg-base-content py-[48px] lg:py-0">
+    <div class="bg-base-content py-[48px] lg:py-5">
       <div class="lg:container mx-4 text-sm">
         <div
           class={`flex flex-col lg:flex-row text-left justify-between items-center z-10 `}
@@ -81,6 +90,11 @@ export default function ImageWithParagraph({
               />
             }
             <div class="text-4xl leading-6" dangerouslySetInnerHTML={{ __html: description }} />
+            <a
+              class="w-full p-4 bg-white text-primary rounded-full text-center text-xl"
+              href={cta?.href}
+              dangerouslySetInnerHTML={{ __html: cta?.text }}
+            />
           </div>
           {device === 'desktop' &&
             <div class="py-[37px]">
