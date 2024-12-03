@@ -1,10 +1,22 @@
-import Icon from "../components/ui/Icon.tsx";
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
 
+interface Title {
+  /** @description Tamanho da imagem  24x24 */
+  icon: ImageWidget;
+  text: string;
+}
+
+  /** @titleBy text */
+interface Tag {
+  /** @description Tamanho da imagem  24x24 */
+  icon: ImageWidget;
+  text: string;
+}
+
 interface Props {
   /** @title Titulo da sessão */
-  titlePage?: string;
+  title?: Title;
   /** @title Clique no + para adicionar novas tags */
   /**
    * @format rich-text
@@ -12,8 +24,7 @@ interface Props {
    */
   /** @title Texto da sessão */
   content?: string;
-  tags?: string[];
-
+  tags?: Tag[];
   /** @title Clique no + para adicionar novos cards de percentual */
   cards?: PercentageProps[];
   /**
@@ -23,7 +34,6 @@ interface Props {
   /** @title Fonte */
   font?: string;
 }
-
 
 /**
  * @titleBy text
@@ -38,7 +48,10 @@ const Benefits = ({
   font,
   tags,
   content,
-  titlePage = "Benefícios para seu Negócio",
+  title = {
+    icon: "",
+    text: "Benefícios para seu Negócio",
+  },
 }: Props) => {
   return (
     <div>
@@ -46,8 +59,14 @@ const Benefits = ({
         <div class="lg:w-2/2 flex flex-col gap-4 mb-8 lg:mb-0">
           <div class="lg:max-w-xl flex flex-col gap-5">
             <div class="flex items-center gap-1">
-              <Icon id="Target" width={24} height={24} />
-              <p class="text-primary font-bold text-sm">{titlePage}</p>
+              {title.icon !== "" && (
+                <Image
+                  src={title.icon}
+                  width={24}
+                  height={24}
+                />
+              )}
+              <p class="text-primary font-bold text-sm">{title.text}</p>
             </div>
             <div
               class="font-semibold text-2xl lg:text-3xl"
@@ -56,8 +75,14 @@ const Benefits = ({
             <div class="flex flex-wrap gap-x-4 gap-y-2">
               {tags?.map((tag, index) => (
                 <div key={index} class="flex items-center gap-1 w-full lg:w-fit">
-                  <Icon id="IconFood" width={24} height={24} />
-                  <p class="text-sm lg:text-base text-primary">{tag}</p>
+                  {tag.icon && (
+                    <Image
+                      src={tag.icon}
+                      width={24}
+                      height={24}
+                    />
+                  )}
+                  <p class="text-sm lg:text-base text-primary">{tag.text}</p>
                 </div>
               ))}
             </div>

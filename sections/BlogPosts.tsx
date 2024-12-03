@@ -1,4 +1,5 @@
 import Icon from "../components/ui/Icon.tsx";
+import Image from "apps/website/components/Image.tsx";
 import { useId } from "../sdk/useId.ts";
 import { useScript } from "@deco/deco/hooks";
 import type { ImageWidget } from "apps/admin/widgets.ts";
@@ -20,8 +21,8 @@ export interface Props {
   /** @description Tamanho do icone  24x24 */
   icon?: ImageWidget;
   /**
-* @default Click Receitas e Dicas Exclusivas.
-*/
+  * @default Click Receitas e Dicas Exclusivas.
+  */
   /** @title Titulo da sessão */
   titleSection?: string;
   /**
@@ -37,7 +38,7 @@ export interface Props {
 const DEFAULT_IMAGE =
   "https://ozksgdmyrqcxcwhnbepg.supabase.co/storage/v1/object/public/assets/4763/682eb374-def2-4e85-a45d-b3a7ff8a31a9";
 
-function SlideItem({ post, id }: { post: Post, id: Number }) {
+function SlideItem({ post, id }: { post: Post, id: string }) {
   return (
     <>
       <div class="swiper-slide max-w-[80vw] lg:max-w-[324px]">
@@ -125,8 +126,14 @@ export default function BlogPosts({
             <div class="bg-white w-full h-full absolute top-0 right-full"></div>
             <div class="flex flex-col justify-center pr-4 h-full">
               <div class="flex gap-1 items-center">
-                <Icon id="IconFood" width={24} height={24} />
-                <p  dangerouslySetInnerHTML={{__html: titleSection}} class="font-bold text-sm text-primary"></p>
+                {icon && (
+                  <Image
+                    src={icon}
+                    width={24}
+                    height={24}
+                  />
+                )}
+                <h2 class="font-bold text-sm text-primary">{titleSection}</h2>
               </div>
               <div
                 class="text-2xl lg:text-3xl font-bold fluid-text"

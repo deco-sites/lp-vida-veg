@@ -53,41 +53,38 @@
       }
     },
     {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/OurProducts.tsx",
-        "title": "Nossos produtos",
-        "cards": [
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5efcc60c-80b5-43e5-8574-58e274b7a1e4/Ellipse-2.svg",
-            "label": "QueijoVeg Parmesão"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/980984f0-1a35-4ae6-90d6-05eabeaba626/Ellipse-3.svg",
-            "label": "QueijoVeg Muçarela"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ae82356a-1812-4b1d-9249-6e82a0990f87/Ellipse-4.svg",
-            "label": "Mousse chocolate"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f509a22-7863-4279-aca0-e42753ae153f/Ellipse-5.svg",
-            "label": "RequeVeg Requeijão"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
-            "label": "Manteiga castanha de caju"
-          },
-          {
-            "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
-            "label": "Requeijão castanha de caju"
-          }
-        ],
-        "subtitle": "<p>Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
-        "cta": {
-          "label": "Conheça todos os produtos",
-          "link": "/"
+      "__resolveType": "site/sections/OurProducts.tsx",
+      "title": "Nossos produtos",
+      "cards": [
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5efcc60c-80b5-43e5-8574-58e274b7a1e4/Ellipse-2.svg",
+          "label": "QueijoVeg Parmesão"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/980984f0-1a35-4ae6-90d6-05eabeaba626/Ellipse-3.svg",
+          "label": "QueijoVeg Muçarela"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ae82356a-1812-4b1d-9249-6e82a0990f87/Ellipse-4.svg",
+          "label": "Mousse chocolate"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f509a22-7863-4279-aca0-e42753ae153f/Ellipse-5.svg",
+          "label": "RequeVeg Requeijão"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
+          "label": "Manteiga castanha de caju"
+        },
+        {
+          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
+          "label": "Requeijão castanha de caju"
         }
+      ],
+      "subtitle": "<p>Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
+      "cta": {
+        "label": "Conheça todos os produtos",
+        "link": "/"
       }
     },
     {
@@ -157,13 +154,156 @@
         "font": "<p>Fonte: <u>Mercado Vegano - SVB</u></p>",
         "content": "<p>Nos últimos anos, vimos de perto o aumento a adesão de alimentações específicas, como:</p>",
         "tags": [
-          "Vegetarianismo",
-          "Veganismo",
-          "Alimentação saudável",
-          "Intolerância à lactose",
-          "Alergia à proteína do leite (APLV)",
-          "Intolerância ao glúten"
-        ]
+          {
+            "0": "V",
+            "1": "e",
+            "2": "g",
+            "3": "e",
+            "4": "t",
+            "5": "a",
+            "6": "r",
+            "7": "i",
+            "8": "a",
+            "9": "n",
+            "10": "i",
+            "11": "s",
+            "12": "m",
+            "13": "o",
+            "text": "Vegetarianismo",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+          },
+          {
+            "0": "V",
+            "1": "e",
+            "2": "g",
+            "3": "a",
+            "4": "n",
+            "5": "i",
+            "6": "s",
+            "7": "m",
+            "8": "o",
+            "text": "Veganismo",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+          },
+          {
+            "0": "A",
+            "1": "l",
+            "2": "i",
+            "3": "m",
+            "4": "e",
+            "5": "n",
+            "6": "t",
+            "7": "a",
+            "8": "ç",
+            "9": "ã",
+            "10": "o",
+            "11": " ",
+            "12": "s",
+            "13": "a",
+            "14": "u",
+            "15": "d",
+            "16": "á",
+            "17": "v",
+            "18": "e",
+            "19": "l",
+            "text": "Alimentação saudável",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+          },
+          {
+            "0": "I",
+            "1": "n",
+            "2": "t",
+            "3": "o",
+            "4": "l",
+            "5": "e",
+            "6": "r",
+            "7": "â",
+            "8": "n",
+            "9": "c",
+            "10": "i",
+            "11": "a",
+            "12": " ",
+            "13": "à",
+            "14": " ",
+            "15": "l",
+            "16": "a",
+            "17": "c",
+            "18": "t",
+            "19": "o",
+            "20": "s",
+            "21": "e",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
+            "text": "Alergia à proteína do leite (APLV)"
+          },
+          {
+            "0": "A",
+            "1": "l",
+            "2": "e",
+            "3": "r",
+            "4": "g",
+            "5": "i",
+            "6": "a",
+            "7": " ",
+            "8": "à",
+            "9": " ",
+            "10": "p",
+            "11": "r",
+            "12": "o",
+            "13": "t",
+            "14": "e",
+            "15": "í",
+            "16": "n",
+            "17": "a",
+            "18": " ",
+            "19": "d",
+            "20": "o",
+            "21": " ",
+            "22": "l",
+            "23": "e",
+            "24": "i",
+            "25": "t",
+            "26": "e",
+            "27": " ",
+            "28": "(",
+            "29": "A",
+            "30": "P",
+            "31": "L",
+            "32": "V",
+            "33": ")",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
+            "text": "Intolerância ao glúten"
+          },
+          {
+            "0": "I",
+            "1": "n",
+            "2": "t",
+            "3": "o",
+            "4": "l",
+            "5": "e",
+            "6": "r",
+            "7": "â",
+            "8": "n",
+            "9": "c",
+            "10": "i",
+            "11": "a",
+            "12": " ",
+            "13": "a",
+            "14": "o",
+            "15": " ",
+            "16": "g",
+            "17": "l",
+            "18": "ú",
+            "19": "t",
+            "20": "e",
+            "21": "n",
+            "text": "Intolerância à lactose",
+            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+          }
+        ],
+        "title": {
+          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/04e86ee3-9163-4e05-9132-724a396bb5bb/target.svg",
+          "text": "Benefícios para seu Negócio"
+        }
       }
     },
     {
@@ -249,7 +389,7 @@
     {
       "__resolveType": "site/sections/BlogPosts.tsx",
       "title": "<p><strong><span>Quer saber como fazer </span><span style=\"color: #a1c342\">pratos irresistíveis com nossos produtos?</span><span> Confira nossos vídeos com algumas receitas exclusivas que vão transformar seu cardápio:</span></strong></p>",
-      "titleSection": "<p>Receitas e Dicas Exclusivas</p>",
+      "titleSection": "Receitas e Dicas Exclusivas",
       "posts": [
         {
           "title": "Pizza com queijo muçarela Vida Veg",

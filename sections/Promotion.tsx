@@ -54,7 +54,7 @@ const Promotion = ({
     return (
         <div class="bg-base-content">
             <div class="container">
-                <div class="py-8 container flex items-center justify-between flex-col lg:flex-row gap-7 lg:gap-0">
+                <div class="py-8 flex items-center justify-between flex-col lg:flex-row gap-7 lg:gap-0">
                     <div class="flex flex-col gap-7 lg:max-w-[594px]">
                         {titlePage && (
                             <div class="flex items-center gap-1">

@@ -36,7 +36,7 @@ interface TaglineProps {
 const Tagline = ({ ...props }: TaglineProps) => {
   return (
     <>
-      <p class="text-xs p-2 lg:p-3 border border-white rounded-full bg-[#A1C342] text-white w-fit">{props?.text}</p>
+      <p class="text-xs lg:text-sm p-2 lg:px-3 lg:py-2 border border-[#fffA6] rounded-full bg-[#A1C342A6] text-white">{props?.text}</p>
     </>
   )
 }
@@ -61,22 +61,21 @@ export default function HeroFlats({
       height: ` ${device === 'mobile' ? '700px' : '750px'}`
     }}>
 
-      <div class="lg:container lg:mx-auto mx-4 h-full flex items-start lg:items-center">
+      <div class="container h-full flex items-start lg:items-center">
         <div class="flex flex-col items-center gap-8 justify-end h-full lg:justify-center">
           <div
-            class={`flex w-full xl:container md:mx-10 z-10  lg:py-36 gap-12 md:gap-20 items-center `}
+            class="flex w-full z-10 lg:py-36 gap-12 md:gap-20 items-center"
           >
             <div
-              class={`lg:mr-auto lg:max-w-[58%] lg:w-full flex flex-col gap-5`}
+              class="lg:mr-auto lg:max-w-[75%] lg:w-full flex flex-col gap-5"
             >
               <p
                 class="inline-block  lg:text-6xl text-4xl font-bold text-white">
                 {title}
               </p>
-              <ul class='flex flex-wrap lg:flex-nowrap gap-3'>
+              <ul class='flex flex-wrap gap-3'>
                 {tagline?.map((item) => (
-                  <li class="w-fit">
-
+                  <li class="shrink-0">
                     <Tagline {...item} />
                   </li>
                 ))}
@@ -86,7 +85,7 @@ export default function HeroFlats({
                 {subtitle}
               </p>
               <p
-                class="inline-block text-base lg:text-xl leading-none font-medium lg:leading-[64px]"
+                class="inline-block text-base lg:text-xl font-medium"
                 dangerouslySetInnerHTML={{ __html: paragraph }}
               />
          

@@ -30,7 +30,7 @@ function Menu({ class: customClass, label, link, isBold }: MenuItem) {
   return (
     <a
       class={[
-        'no-underline capitalize text-base-content text-sm lg:text-[17px] lg:text-white cursor-pointer',
+        'no-underline capitalize text-base-content text-sm lg:text-base lg:text-white cursor-pointer',
         customClass,
         isBold ? 'font-bold text-white' : ''
       ].join(' ')}
@@ -42,13 +42,6 @@ function Menu({ class: customClass, label, link, isBold }: MenuItem) {
 }
 
 const onLoad = () => {
-  const header = document.getElementById("header");
-
-  if (!header) {
-    console.warn("Header element not found");
-    return;
-  }
-
   const onScroll = () => {
       const header = document.getElementById("header");
       if (!header) {
@@ -58,15 +51,15 @@ const onLoad = () => {
 
       if (window.scrollY > 20) {
         header.classList.add("bg-primary");
+        header.classList.remove("bg-transparent");
       } else {
+        header.classList.add("bg-transparent");
         header.classList.remove("bg-primary");
       }
   }
 
   globalThis.addEventListener("scroll", onScroll);
-  globalThis.addEventListener("beforeunload", () => {
-    globalThis.removeEventListener("scroll", onScroll);
-  });
+  onScroll();
 };
 
 export const SIDEMENU_DRAWER_ID = "sidemenu-drawer";
@@ -81,12 +74,11 @@ export default function Header({
   social
 }: Nav) {
   const device = useDevice();
-  console.log('menus', menu);
 
   return (
-    <header id="header" class="fixed z-50 top-0 w-full z-50 transition-all duration-300 bg-primary">
+    <header id="header" class="fixed z-50 top-0 w-full z-50 transition-all duration-300 bg-transparent">
       <nav class="justify-center">
-        <div class="container lg:px-0 px-4 flex gap-8 items-center justify-between py-4">
+        <div class="container flex gap-8 items-center justify-between py-4">
           {(device === 'mobile' || device === 'tablet') && (
             <Drawer
               id={SIDEMENU_DRAWER_ID}
