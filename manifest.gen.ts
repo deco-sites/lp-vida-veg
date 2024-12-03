@@ -8,34 +8,38 @@ import * as $$$$$$$$$$$2 from "./apps/site.ts";
 import * as $$$$$$0 from "./sections/Advantages.tsx";
 import * as $$$$$$1 from "./sections/Benefits.tsx";
 import * as $$$$$$2 from "./sections/BlogPosts.tsx";
-import * as $$$$$$3 from "./sections/Footer.tsx";
-import * as $$$$$$4 from "./sections/Form.tsx";
-import * as $$$$$$5 from "./sections/Header.tsx";
-import * as $$$$$$6 from "./sections/Hero.tsx";
-import * as $$$$$$7 from "./sections/ImageWithParagraph.tsx";
-import * as $$$$$$8 from "./sections/OurProducts.tsx";
-import * as $$$$$$9 from "./sections/Promotion.tsx";
-import * as $$$$$$10 from "./sections/Spacer.tsx";
-import * as $$$$$$11 from "./sections/Testimonials.tsx";
-import * as $$$$$$12 from "./sections/TextWithIcon.tsx";
-import * as $$$$$$13 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$3 from "./sections/Faq.tsx";
+import * as $$$$$$4 from "./sections/Footer.tsx";
+import * as $$$$$$5 from "./sections/Form.tsx";
+import * as $$$$$$6 from "./sections/Header.tsx";
+import * as $$$$$$7 from "./sections/Hero.tsx";
+import * as $$$$$$8 from "./sections/ImageWithParagraph.tsx";
+import * as $$$$$$9 from "./sections/OurProducts.tsx";
+import * as $$$$$$10 from "./sections/Promotion.tsx";
+import * as $$$$$$11 from "./sections/RegularSpacer.tsx";
+import * as $$$$$$12 from "./sections/SmallSpacer.tsx";
+import * as $$$$$$13 from "./sections/Testimonials.tsx";
+import * as $$$$$$14 from "./sections/TextWithIcon.tsx";
+import * as $$$$$$15 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
     "site/sections/Advantages.tsx": $$$$$$0,
     "site/sections/Benefits.tsx": $$$$$$1,
     "site/sections/BlogPosts.tsx": $$$$$$2,
-    "site/sections/Footer.tsx": $$$$$$3,
-    "site/sections/Form.tsx": $$$$$$4,
-    "site/sections/Header.tsx": $$$$$$5,
-    "site/sections/Hero.tsx": $$$$$$6,
-    "site/sections/ImageWithParagraph.tsx": $$$$$$7,
-    "site/sections/OurProducts.tsx": $$$$$$8,
-    "site/sections/Promotion.tsx": $$$$$$9,
-    "site/sections/Spacer.tsx": $$$$$$10,
-    "site/sections/Testimonials.tsx": $$$$$$11,
-    "site/sections/TextWithIcon.tsx": $$$$$$12,
-    "site/sections/Theme/Theme.tsx": $$$$$$13,
+    "site/sections/Faq.tsx": $$$$$$3,
+    "site/sections/Footer.tsx": $$$$$$4,
+    "site/sections/Form.tsx": $$$$$$5,
+    "site/sections/Header.tsx": $$$$$$6,
+    "site/sections/Hero.tsx": $$$$$$7,
+    "site/sections/ImageWithParagraph.tsx": $$$$$$8,
+    "site/sections/OurProducts.tsx": $$$$$$9,
+    "site/sections/Promotion.tsx": $$$$$$10,
+    "site/sections/RegularSpacer.tsx": $$$$$$11,
+    "site/sections/SmallSpacer.tsx": $$$$$$12,
+    "site/sections/Testimonials.tsx": $$$$$$13,
+    "site/sections/TextWithIcon.tsx": $$$$$$14,
+    "site/sections/Theme/Theme.tsx": $$$$$$15,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
