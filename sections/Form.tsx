@@ -146,43 +146,44 @@ export default function Form({
         </div>
     );
 };
-export const action = async (
-    _props: unknown,
-    req: Request,
-    ctx: AppContext,
-) => {
-    const form = await req.formData();
 
-    const email = ${form.get("email") || ""};
-    const phone = ${form.get("phone") || ""};
-    const lastName = ${form.get("lastName") || ""};
-    const firstName = ${form.get("firstName") || ""};
-    const establishmentType = ${form.get("establishmentType") || ""};
+// export const action = async (
+//     _props: unknown,
+//     req: Request,
+//     ctx: AppContext,
+// ) => {
 
-    try {
-        // deno-lint-ignore no-explicit-any
-        await (ctx as any).invoke(
-            "vtex.actions.masterdata.createDocument",
-            {
-                acronym: "CT",
-                data: {
-                    email,
-                    phone,
-                    lastName,
-                    firstName,
-                    establishmentType,
-                },
-            },
-        );
+//     const form = await req.formData();
+//     const email = ${form.get("email") || ""};
+//     const phone = ${form.get("phone") || ""};
+//     const lastName = ${form.get("lastName") || ""};
+//     const firstName = ${form.get("firstName") || ""};
+//     const establishmentType = ${form.get("establishmentType") || ""};
 
-        return {
-            toast: "success",
-            message: "Menssagem enviada com sucesso!",
-        };
-    } catch {
-        return {
-            toast: "error",
-            message: "Erro ao enviar a mensagem. Tente novamente mais tarde.",
-        };
-    }
-};
+//     try {
+//         // deno-lint-ignore no-explicit-any
+//         await (ctx as any).invoke(
+//             "vtex.actions.masterdata.createDocument",
+//             {
+//                 acronym: "CT",
+//                 data: {
+//                     email,
+//                     phone,
+//                     lastName,
+//                     firstName,
+//                     establishmentType,
+//                 },
+//             },
+//         );
+
+//         return {
+//             toast: "success",
+//             message: "Menssagem enviada com sucesso!",
+//         };
+//     } catch {
+//         return {
+//             toast: "error",
+//             message: "Erro ao enviar a mensagem. Tente novamente mais tarde.",
+//         };
+//     }
+// };
