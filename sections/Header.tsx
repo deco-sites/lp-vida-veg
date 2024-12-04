@@ -20,6 +20,7 @@ export interface Nav {
 
 /** @title Item do Menu */
 interface MenuItem {
+  /** @hidden */
   class?: string;
   label?: string;
   link?: string;
@@ -43,19 +44,19 @@ function Menu({ class: customClass, label, link, isBold }: MenuItem) {
 
 const onLoad = () => {
   const onScroll = () => {
-      const header = document.getElementById("header");
-      if (!header) {
-        console.warn("Header element not found");
-        return;
-      }
+    const header = document.getElementById("header");
+    if (!header) {
+      console.warn("Header element not found");
+      return;
+    }
 
-      if (window.scrollY > 20) {
-        header.classList.add("bg-primary");
-        header.classList.remove("bg-transparent");
-      } else {
-        header.classList.add("bg-transparent");
-        header.classList.remove("bg-primary");
-      }
+    if (window.scrollY > 20) {
+      header.classList.add("bg-primary");
+      header.classList.remove("bg-transparent");
+    } else {
+      header.classList.add("bg-transparent");
+      header.classList.remove("bg-primary");
+    }
   }
 
   globalThis.addEventListener("scroll", onScroll);
