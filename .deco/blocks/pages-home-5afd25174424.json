@@ -433,14 +433,18 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/RegularSpacer.tsx"
+        "__resolveType": "site/sections/Text.tsx",
+        "text": "<p style=\"text-align: center\"><strong><span style=\"color: #154734\">Entregas para RJ, BH, Curitiba, Florianópolis.</span></strong><span style=\"color: #154734\"> Caso não seja dessas cidades, siga para entrar em contato.</span></p>"
       }
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/Form.tsx"
+        "__resolveType": "site/sections/RegularSpacer.tsx"
       }
+    },
+    {
+      "__resolveType": "site/sections/Form.tsx"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",

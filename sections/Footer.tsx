@@ -1,6 +1,6 @@
 import Image from "apps/website/components/Image.tsx";
 import type { ImageWidget } from "apps/admin/widgets.ts";
-import { useDevice } from "@deco/deco/hooks";
+import { useDevice, useScript } from "@deco/deco/hooks";
 import SocialLinks, { Social as SocialType } from "site/components/ui/Social.tsx";
 
 export interface Items {
@@ -89,7 +89,8 @@ export default function Footer({
             <div class="flex flex-col items-center">
               <Image
                 src={logo.src || ""}
-                class={`${isMobile ? "w-[61.39px] h-[28px]" : "w-[117.99px] h-[115.86px]"}`}
+                width={94}
+                height={93}
                 alt={logo.alt || "Logo"}
               />
               {!isMobile && seals?.length && (
@@ -120,29 +121,17 @@ export default function Footer({
                 dangerouslySetInnerHTML={{ __html: subscribe.title }}
                 class="font-semibold text-base mt-[45px] lg:mt-[50px] lg:mb-[30px] mb-[20px] text-center"
               />
-              <form class="flex flex-col gap-4 w-full" onSubmit={handleSubmit}>
-                <div class="border border-base flex p-4 rounded-full w-full">
-                  <input
-                    type="text"
-                    placeholder="Seu nome"
-                    class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
-                  />
-                </div>
-                <div class="border border-base flex p-4 rounded-full lg:max-w-[303px] w-full">
-                  <input
-                    type="email"
-                    placeholder="Seu e-mail"
-                    class="w-full outline-0 bg-transparent text-base-200 placeholder:text-base-200"
-                  />
-                  <button
-                    type="submit"
-                    class="text-accent-content font-bold text-sm bg-transparent"
-                    aria-label="Subscribe"
-                  >
-                    Cadastrar
-                  </button>
-                </div>
-              </form>
+              <div role="main" id="lp-newsletter-e6eaf7a1b13a5227ed21" />
+              <script type="text/javascript" src="https://d335luupugsy2.cloudfront.net/js/rdstation-forms/stable/rdstation-forms.min.js"/>
+              <script 
+                type="text/javascript"
+                dangerouslySetInnerHTML={{
+                  __html: useScript(() => {
+                    // @ts-ignore .
+                    new RDStationForms('lp-newsletter-e6eaf7a1b13a5227ed21', 'UA-108742147-1').createForm();
+                  })
+                }}
+              />
               {isMobile && seals?.length && (
                 <div class="flex gap-6 mt-8 justify-around py-[45px]">
                   {seals.map((item, index) => (

@@ -97,3 +97,36 @@
   padding: 3px 12px;
   border-radius: 9999px;
 }
+
+#lp-catalogo-77ca60e403b927764877 {
+  padding: 32px 0 0;
+}
+
+#lp-catalogo-77ca60e403b927764877 [id^="bricks-component-"] {
+  width: 100% !important;
+}
+
+#lp-catalogo-77ca60e403b927764877 [id^="bricks-component-"] .bricks--column > div {
+  padding: 0 !important;
+  background: transparent !important;
+}
+
+#conversion-form-lp-catalogo * {
+  font-family: "Inter", sans-serif !important;
+}
+
+.bricks-form {
+  padding: 0 !important;
+}
+
+.bricks-form__fieldset {
+  margin: 0 !important;
+}
+
+input.bricks-form__input {
+  padding: 0 16px !important;
+}
+
+#lp-newsletter-e6eaf7a1b13a5227ed21 input.bricks-form__input::placeholder {
+  color: #fff;
+}

@@ -19,8 +19,9 @@ import * as $$$$$$10 from "./sections/Promotion.tsx";
 import * as $$$$$$11 from "./sections/RegularSpacer.tsx";
 import * as $$$$$$12 from "./sections/SmallSpacer.tsx";
 import * as $$$$$$13 from "./sections/Testimonials.tsx";
-import * as $$$$$$14 from "./sections/TextWithIcon.tsx";
-import * as $$$$$$15 from "./sections/Theme/Theme.tsx";
+import * as $$$$$$14 from "./sections/Text.tsx";
+import * as $$$$$$15 from "./sections/TextWithIcon.tsx";
+import * as $$$$$$16 from "./sections/Theme/Theme.tsx";
 
 const manifest = {
   "sections": {
@@ -38,8 +39,9 @@ const manifest = {
     "site/sections/RegularSpacer.tsx": $$$$$$11,
     "site/sections/SmallSpacer.tsx": $$$$$$12,
     "site/sections/Testimonials.tsx": $$$$$$13,
-    "site/sections/TextWithIcon.tsx": $$$$$$14,
-    "site/sections/Theme/Theme.tsx": $$$$$$15,
+    "site/sections/Text.tsx": $$$$$$14,
+    "site/sections/TextWithIcon.tsx": $$$$$$15,
+    "site/sections/Theme/Theme.tsx": $$$$$$16,
   },
   "apps": {
     "site/apps/deco/blog.ts": $$$$$$$$$$$0,
