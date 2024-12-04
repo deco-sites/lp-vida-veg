@@ -1,6 +1,7 @@
 import { useId } from "../sdk/useId.ts";
 import { useScript } from "@deco/deco/hooks";
 import Image from "apps/website/components/Image.tsx";
+import type { ImageWidget } from "apps/admin/widgets.ts";
 
 interface Props {
     /**
@@ -27,7 +28,7 @@ interface Card {
      * @title Imagem
      * @description tamanho da imagem 132x132
      */
-    src?: string;
+    src?: ImageWidget;
     /**
      * @title Texto do card
      */
