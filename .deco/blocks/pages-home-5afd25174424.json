@@ -392,19 +392,19 @@
       "titleSection": "Receitas e Dicas Exclusivas",
       "posts": [
         {
-          "title": "Pizza com queijo muçarela Vida Veg",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/57f3c8ba-d89b-4622-9da4-b1976fbd7816/image-3.png",
-          "videoLink": "https://www.youtube.com/embed/Fre33Q0jq0U?si=54w4J3Yl5TYfUyw5&amp;controls=0"
+          "title": "Pizza para todos - com queijo Vida Veg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bec34715-4fe5-4b53-ac53-381dc882e2f2/WhatsApp-Image-2024-12-17-at-09.50.24.jpeg",
+          "videoLink": "https://youtu.be/OvRW4iUbrMU"
         },
         {
-          "title": "Sanduíche vegano com requeijão Vida Veg",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/de02a4c5-9f95-4090-aee1-546ec17b8870/image.png",
-          "videoLink": "https://www.youtube.com/embed/sRPZ59QinyQ?si=JK7AXsjtLupbbmDI&amp;controls=0"
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/362e25f6-ba84-448b-a956-847746a67d51/WhatsApp-Image-2024-12-17-at-10.12.53.jpeg",
+          "videoLink": "https://youtu.be/NWJxPv-9rko",
+          "title": "Goiabada Tragaluz - com requeijão Vida Veg"
         },
         {
-          "title": "Pizza com queijo muçarela Vida Veg",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/57f3c8ba-d89b-4622-9da4-b1976fbd7816/image-3.png",
-          "videoLink": "https://www.youtube.com/embed/dw0zADRD4u8?si=r09DNky03BcZtUCA&amp;controls=0"
+          "title": "Dadinho de tapioca - com leite e queijo  Vida Veg",
+          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/d6b11a04-022d-4a40-8549-249672e74d8b/WhatsApp-Image-2024-12-17-at-10.14.19.jpeg",
+          "videoLink": "https://youtube.com/shorts/KCgCAhOVCvU"
         }
       ],
       "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
@@ -423,7 +423,7 @@
         "content": "<p><strong><span style=\"color: #a1c342\">A Vida Veg Chef oferece uma</span><span> oportunidade especial </span><span style=\"color: #a1c342\">para novos clientes!</span></strong></p><p><span>Ao fazer o cadastro, </span><strong><span style=\"color: #a1c342\">você ganha </span><u><span style=\"color: #ffffff\">15% OFF</span></u><span style=\"color: #a1c342\"> no primeiro pedido.</span></strong><span> Conheça nossa linha de produtos </span><strong><span>e faça seu pedido!</span></strong></p>",
         "cta": {
           "label": "Faça seu pedido aqui",
-          "link": "/",
+          "link": "https://wa.me/553597555813",
           "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/244ad68b-bdbe-4f11-8cb9-e38cc2ac1e2a/whatsapp1.svg"
         },
         "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbe4af10-fce2-47c0-b320-c7a006d8e32c/Rectangle-3.png",
@@ -434,7 +434,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Text.tsx",
-        "text": "<p style=\"text-align: center\"><strong><span style=\"color: #154734\">Entregas para RJ, BH, Curitiba, Florianópolis.</span></strong><span style=\"color: #154734\"> Caso não seja dessas cidades, siga para entrar em contato.</span></p>"
+        "text": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52)\">Entregas para</span><span style=\"color: #26371a\"> </span></strong><span style=\"color: #26371a; font-size: 15px\">São Paulo, Rio de janeiro, Belo horizonte, Curitiba, Florianópolis e Porto Alegre.</span></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52)\">.</span></strong><span style=\"color: rgb(21, 71, 52)\"> Caso não seja dessas cidades, siga para entrar em contato.</span></p>"
       }
     },
     {
