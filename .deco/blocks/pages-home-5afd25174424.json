@@ -3,7 +3,86 @@
   "path": "/",
   "sections": [
     {
-      "__resolveType": "Header"
+      "__resolveType": "site/sections/Header.tsx",
+      "navigation": {
+        "links": [],
+        "buttons": []
+      },
+      "logo": {
+        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
+      },
+      "menus": [
+        {
+          "label": "a vida veg"
+        },
+        {
+          "label": "produtos"
+        },
+        {
+          "label": "blog"
+        },
+        {
+          "label": "receitas"
+        },
+        {
+          "label": "contato",
+          "isBold": true
+        },
+        {
+          "label": "onde encontrar",
+          "isBold": true
+        }
+      ],
+      "menu": [
+        {
+          "label": "A Vida Veg",
+          "link": "https://vidaveg.com.br/a-vida-veg/"
+        },
+        {
+          "label": "Produtos",
+          "link": "https://vidaveg.com.br/produtos/"
+        },
+        {
+          "link": "https://vidaveg.com.br/blog/",
+          "label": "Blog"
+        },
+        {
+          "label": "Receitas",
+          "link": "https://vidaveg.com.br/receitas/"
+        },
+        {
+          "isBold": true,
+          "label": "Contato",
+          "link": "https://wa.me/553597555813"
+        }
+      ],
+      "social": [
+        {
+          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/8d40ce70-f6df-4d45-adaa-24c83bfa3b65/bg-linkedin.svg",
+          "label": "Linkedin",
+          "href": "/"
+        },
+        {
+          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/22f4bfc9-3f07-4fdb-8cc8-a06f5bc7d144/bg-face.png",
+          "label": "Facebook",
+          "href": "/"
+        },
+        {
+          "label": "Youtube",
+          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1714b39c-a0db-4285-b35a-0af8c0e32e9b/bg-youtube.svg",
+          "href": "/"
+        },
+        {
+          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/a0e116d0-c695-4d43-a8f8-8ab2f0c61d25/bg-insta.svg",
+          "label": "Instagram",
+          "href": "/"
+        },
+        {
+          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c212a633-ce43-438b-a6fc-cde08583c7b3/bg-twitter.svg",
+          "label": "Twitter",
+          "href": "/"
+        }
+      ]
     },
     {
       "__resolveType": "site/sections/Hero.tsx",
@@ -84,7 +163,7 @@
       "subtitle": "<p>Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
       "cta": {
         "label": "Conheça todos os produtos",
-        "link": "/"
+        "link": "/https://vidaveg.com.br/produtos/"
       }
     },
     {
@@ -394,17 +473,17 @@
         {
           "title": "Pizza para todos - com queijo Vida Veg",
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bec34715-4fe5-4b53-ac53-381dc882e2f2/WhatsApp-Image-2024-12-17-at-09.50.24.jpeg",
-          "videoLink": "https://youtu.be/OvRW4iUbrMU"
+          "videoLink": "https://www.youtube.com/embed/qvzvfg0qTyg"
         },
         {
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/362e25f6-ba84-448b-a956-847746a67d51/WhatsApp-Image-2024-12-17-at-10.12.53.jpeg",
-          "videoLink": "https://youtu.be/NWJxPv-9rko",
+          "videoLink": "https://www.youtube.com/embed/3L-oK53pl80",
           "title": "Goiabada Tragaluz - com requeijão Vida Veg"
         },
         {
           "title": "Dadinho de tapioca - com leite e queijo  Vida Veg",
           "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/d6b11a04-022d-4a40-8549-249672e74d8b/WhatsApp-Image-2024-12-17-at-10.14.19.jpeg",
-          "videoLink": "https://youtube.com/shorts/KCgCAhOVCvU"
+          "videoLink": "https://www.youtube.com/embed/5p5ah-AE0ZE"
         }
       ],
       "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
