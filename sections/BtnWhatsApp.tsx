@@ -3,7 +3,6 @@ import { h } from 'preact';
 interface WhatsAppButtonProps {
   phoneNumber: string;
   message: string;
-  /** @hide	 */
   buttonText?: string;
   /** @hide	 */
   className?: string;  // Classe CSS personalizada (opcional)
