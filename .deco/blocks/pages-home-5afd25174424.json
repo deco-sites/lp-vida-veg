@@ -538,8 +538,8 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BtnWhatsApp.tsx",
-        "phoneNumber": "48984461383",
-        "message": "Olá! Gostaria de mais informações sobre seus produtos. Poderia me ajudar?"
+        "message": "Olá! Gostaria de mais informações sobre seus produtos. Poderia me ajudar?",
+        "phoneNumber": "/"
       }
     }
   ],
