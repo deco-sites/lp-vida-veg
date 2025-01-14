@@ -539,7 +539,8 @@
       "section": {
         "__resolveType": "site/sections/BtnWhatsApp.tsx",
         "message": "Olá! Gostaria de mais informações sobre seus produtos. Poderia me ajudar?",
-        "phoneNumber": "/"
+        "phoneNumber": "+553597555813",
+        "buttonText": "Ganhe 15%OFF em seu primeiro pedido!"
       }
     }
   ],
