@@ -109,7 +109,7 @@
         }
       ],
       "subtitle": "Faz bem para o mundo, faz bem para o seu negócio",
-      "paragraph": "<p><span style=\"color: #ffffff\">Se diferencie e destaque o potencial do seu cardápio com</span><span> </span><strong><span style=\"color: #a1c342\">produtos saudáveis e plant-based.</span></strong></p>"
+      "paragraph": "<p><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">Se diferencie e destaque o potencial do seu cardápio com</span><span style=\"font-size: 14pt\"> </span><strong><span style=\"color: rgb(161, 195, 66); font-size: 14pt\">produtos saudáveis e plant-based (veganas).</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -399,17 +399,17 @@
         "title": "<p><strong><span style=\"color: #ffffff\">Oferecer produtos veganos no seu estabelecimento nunca foi tão fácil!<br></span><span style=\"color: #a1c342\">Com a linha Vida Veg Chef, você contará com:</span></strong></p>",
         "cards": [
           {
-            "content": "<p><span style=\"color: rgb(255, 255, 255)\">A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente..</span></p>",
+            "content": "<p><span style=\"color: rgb(255, 255, 255)\">A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente.</span></p>",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/6de6d42f-24b6-411d-aff4-0815856d547d/crescimento-do-publico.svg",
             "title": "Recorrência de Clientes"
           },
           {
-            "content": "<p><span style=\"color: rgb(255, 255, 255)\">Nossa equipe de especialistas está pronta para ajudar você a elaborar pratos deliciosos e nutritivos</span></p>",
+            "content": "<p><span style=\"color: rgb(255, 255, 255)\">Nossa equipe de especialistas está pronta para ajudar você a elaborar pratos deliciosos e nutritivos.</span></p>",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/e4865e58-8818-4e2e-a60e-0343ba2a41bc/chef.svg",
             "title": "Consultoria Gastronômica"
           },
           {
-            "content": "<p><span style=\"color: rgb(255, 255, 255)\">Requeijão, parmesão, muçarela, homus e mousse entre outros&nbsp;que se destacam tanto pelo sabor quanto pela praticidade no preparo</span></p>",
+            "content": "<p><span style=\"color: rgb(255, 255, 255)\">Requeijão, parmesão, muçarela, homus e mousse entre outros&nbsp;que se destacam tanto pelo sabor quanto pela praticidade no preparo.</span></p>",
             "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1e3d4ecf-90f9-418d-8c95-3d1d40ad5e8c/certificado-de-garantia.svg",
             "title": "Produtos de Alta Qualidade"
           }
@@ -429,31 +429,31 @@
       "slides": [
         {
           "content": {
-            "description": "Os queijos da vida VEG estão fazendo a diferença na nossa cozinha, uma que a textura e sabor são maravilhosas para preparações como pizza, risotos e outros. Já na loja os clientes estão encantados em poder consumir um queijo com tanto sabor e qualidade 💕",
+            "description": "\"Os queijos da vida VEG estão fazendo a diferença na nossa cozinha, uma que a textura e sabor são maravilhosas para preparações como pizza, risotos e outros. Já na loja os clientes estão encantados em poder consumir um queijo com tanto sabor e qualidade 💕\"",
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/96e0b73b-3311-4021-b348-668ba9647322/457d2903b9cf2f14513a918fce316078.png"
           }
         },
         {
           "content": {
-            "description": "Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.",
+            "description": "\"Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.\"",
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b5deff4c-a852-492f-9822-3a6c676bdd49/Group-39217.png"
           }
         },
         {
           "content": {
-            "description": "Aqui na Di Blasi Pizzas, temos explorado opções mais saudáveis e voltadas para o público vegano e vegetariano. Os produtos Vida Veg têm sido um ótimo complemento, especialmente por serem muito versáteis e de alta qualidade. Eles se integram bem nas preparações sem comprometer o sabor ou a textura, o que é essencial para manter o padrão das nossas pizzas. O feedback dos clientes tem sido positivo, pois muitos apreciam o sabor autêntico e a leveza dos ingredientes.",
+            "description": "\"Aqui na Di Blasi Pizzas, temos explorado opções mais saudáveis e voltadas para o público vegano e vegetariano. Os produtos Vida Veg têm sido um ótimo complemento, especialmente por serem muito versáteis e de alta qualidade. Eles se integram bem nas preparações sem comprometer o sabor ou a textura, o que é essencial para manter o padrão das nossas pizzas. O feedback dos clientes tem sido positivo, pois muitos apreciam o sabor autêntico e a leveza dos ingredientes.\"",
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b8e81bf8-c337-4711-b35b-c57618d25eba/Group.png"
           }
         },
         {
           "content": {
-            "description": "Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.",
+            "description": "\"Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.\"",
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0aa03bb6-f46d-4c0e-9d99-e2da3c98e511/Group-39217.png"
           }
         },
         {
           "content": {
-            "description": "Quando penso em alimentação tenho em mente não só a nutrição mas a forma de cuidar do todo, corpo, mente e meio ambiente. Os produtos Vida Veg nos proporcionam isso.  Cuidado com o todo, tendo assim o compromisso e a certeza de servir nosso propósito fazendo o melhor para uma alimentação saudável, inclusiva, saborosa e nutritiva!",
+            "description": "\"Quando penso em alimentação tenho em mente não só a nutrição mas a forma de cuidar do todo, corpo, mente e meio ambiente. Os produtos Vida Veg nos proporcionam isso.  Cuidado com o todo, tendo assim o compromisso e a certeza de servir nosso propósito fazendo o melhor para uma alimentação saudável, inclusiva, saborosa e nutritiva!\"",
             "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
           }
         }
@@ -499,7 +499,7 @@
       "section": {
         "__resolveType": "site/sections/Promotion.tsx",
         "titlePage": "Promoção de Primeira Compra",
-        "content": "<p><strong><span style=\"color: #a1c342\">A Vida Veg Chef oferece uma</span><span> oportunidade especial </span><span style=\"color: #a1c342\">para novos clientes!</span></strong></p><p><span>Ao fazer o cadastro, </span><strong><span style=\"color: #a1c342\">você ganha </span><u><span style=\"color: #ffffff\">15% OFF</span></u><span style=\"color: #a1c342\"> no primeiro pedido.</span></strong><span> Conheça nossa linha de produtos </span><strong><span>e faça seu pedido!</span></strong></p>",
+        "content": "<p><strong><span style=\"color: rgb(161, 195, 66)\">A Vida Veg Chef oferece uma</span> oportunidade especial <span style=\"color: rgb(161, 195, 66)\">para novos clientes!</span></strong></p><p>Ao fazer o cadastro <span style=\"color: rgb(193, 239, 107)\">v</span><strong><span style=\"color: rgb(161, 195, 66)\">ocê ganha </span><u><span style=\"color: rgb(255, 255, 255)\">15% OFF</span></u><span style=\"color: rgb(161, 195, 66)\">  e </span><span style=\"color: #ffffff\">FRETE GRÁTIS</span><span style=\"color: rgb(161, 195, 66)\"> no primeiro pedido.</span></strong> Conheça nossa linha de produtos <strong>e faça seu pedido!</strong></p>",
         "cta": {
           "label": "Faça seu pedido aqui",
           "link": "https://wa.me/553597555813",
@@ -513,7 +513,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Text.tsx",
-        "text": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52)\">Entregas para</span><span style=\"color: #26371a\"> </span></strong><span style=\"color: #26371a; font-size: 15px\">São Paulo, Rio de janeiro, Belo horizonte, Curitiba, Florianópolis e Porto Alegre.</span></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52)\">.</span></strong><span style=\"color: rgb(21, 71, 52)\"> Caso não seja dessas cidades, siga para entrar em contato.</span></p>"
+        "text": "<p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52)\">Entregas para</span><span style=\"color: rgb(38, 55, 26)\"> </span></strong><span style=\"color: rgb(38, 55, 26); font-size: 15px\">São Paulo, Rio de janeiro, Belo horizonte, Curitiba, Florianópolis, Porto Alegre e Vitória.</span></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"></p><p style=\"text-align: center\"><strong><span style=\"color: rgb(21, 71, 52); font-size: 14pt\">Caso não seja dessas cidades, preencha o cadastro, retornaremos com excelentes oportunidades.</span></strong></p>"
       }
     },
     {
@@ -528,20 +528,17 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
+        "__resolveType": "Preview /sections/BtnWhatsApp.tsx"
+      }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
         "__resolveType": "site/sections/RegularSpacer.tsx"
       }
     },
     {
       "__resolveType": "Footer"
-    },
-    {
-      "__resolveType": "website/sections/Rendering/Lazy.tsx",
-      "section": {
-        "__resolveType": "site/sections/BtnWhatsApp.tsx",
-        "message": "Olá! Gostaria de mais informações sobre seus produtos. Poderia me ajudar?",
-        "phoneNumber": "+553597555813",
-        "buttonText": "Faça seu pedido AQUI  e ganhe 15%OFF"
-      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
