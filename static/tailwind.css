@@ -2849,6 +2849,9 @@ input.tab:checked + .tab-content,
 .bottom-0 {
   bottom: 0px;
 }
+.bottom-20 {
+  bottom: 5rem;
+}
 .bottom-4 {
   bottom: 1rem;
 }
