@@ -22,7 +22,7 @@ const WhatsAppButton = ({
       href={whatsappLink}
       target="_blank"
       rel="noopener noreferrer"
-      className={`${className} fixed bottom-16 right-4 z-[100]`}
+      className={`${className} fixed bottom-4 right-4 z-[100]`}
     >
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"

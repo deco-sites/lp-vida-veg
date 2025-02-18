@@ -2852,8 +2852,8 @@ input.tab:checked + .tab-content,
 .bottom-12 {
   bottom: 3rem;
 }
-.bottom-16 {
-  bottom: 4rem;
+.bottom-4 {
+  bottom: 1rem;
 }
 .left-0 {
   left: 0px;
