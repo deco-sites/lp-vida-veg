@@ -72,7 +72,8 @@ export default function HeroFlats({
               <p
                 class="inline-block  lg:text-6xl text-4xl font-bold text-white">
                 {title}
-              </p>
+              </p><br/>
+              <p style="margin-top:-50px; color:#fff; font-size:20px;">Linha de Produtos Food Service</p>
               <ul class='flex flex-wrap gap-3'>
                 {tagline?.map((item) => (
                   <li class="shrink-0">
@@ -81,7 +82,7 @@ export default function HeroFlats({
                 ))}
               </ul>
               <p
-                class="inline-block  lg:text-6xl text-4xl font-bold text-white">
+                class="inline-block  lg:text-2xl text-2xl font-bold text-white">
                 {subtitle}
               </p>
               <p
