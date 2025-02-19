@@ -543,7 +543,9 @@
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
-        "__resolveType": "site/sections/BtnLink.tsx"
+        "__resolveType": "site/sections/BtnLink.tsx",
+        "link": "https://vidaveg.b2list.com/order/oYTMYg",
+        "buttonText": "Clique aqui e faça sem pedido!"
       }
     }
   ],

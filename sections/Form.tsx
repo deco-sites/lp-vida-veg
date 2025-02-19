@@ -21,7 +21,7 @@ export default function Form() {
                     dangerouslySetInnerHTML={{
                         __html: useScript(() => {
                             // @ts-ignore .
-                            new RDStationForms('lp-catalogo-77ca60e403b927764877', 'UA-108742147-1').createForm();
+                          new RDStationForms('lp-catalogo-77ca60e403b927764877', 'UA-108742147-1').createForm();
                         })
                     }}
                 />

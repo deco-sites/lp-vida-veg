@@ -8,14 +8,15 @@ interface LinkButtonProps {
 
 const LinkButton = ({
     link = "#",
-    buttonText = "Faça seu pedido aqui",
+    buttonText = "Clique aqui e faça seu pedido!",
 }: LinkButtonProps) => {
     return (
         <a
             href={link}
             target="_blank"
             rel="noopener noreferrer"
-            class={` fixed bottom-20 right-4 z-[100] flex items-center bg-green-500 text-white px-4 py-2 rounded shadow-lg`}
+        style="background: rgb(255 84 0);"
+            class={` fixed bottom-20 right-4 z-[100] flex items-center text-white px-4 py-2 rounded shadow-lg`}
         >
             {buttonText}
         </a>

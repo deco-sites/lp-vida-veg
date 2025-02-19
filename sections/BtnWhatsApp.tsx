@@ -15,7 +15,7 @@ const WhatsAppButton = ({
   className = "flex items-center text-white rounded"
 }: WhatsAppButtonProps) => {
   const formattedMessage = encodeURIComponent(message);
-  const whatsappLink = `https://wa.me/${phoneNumber}?text=${formattedMessage}`;
+  const whatsappLink = `https://wa.me/${553598355810}?text=${formattedMessage}`;
 
   return (
     <a
@@ -27,7 +27,7 @@ const WhatsAppButton = ({
       <img
         src="https://upload.wikimedia.org/wikipedia/commons/6/6b/WhatsApp.svg"
         alt="WhatsApp"
-        className="w-14 h-14 mr-2"
+        className="w-10 h-10 mr-2"
       />
     </a>
   );
