@@ -40,7 +40,7 @@
         },
         {
           "label": "Produtos",
-          "link": "https://vidaveg.b2list.com/order/oYTMYg"
+          "link": "https://vidaveg.b2list.com/order/31Bi8x"
         },
         {
           "link": "https://vidaveg.com.br/blog/",
@@ -109,7 +109,7 @@
         }
       ],
       "subtitle": "Faz bem para o mundo, faz bem para o seu negócio",
-      "paragraph": "<p><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">Se diferencie e destaque o potencial do seu cardápio com</span><span style=\"font-size: 14pt\"> </span><strong><span style=\"color: rgb(161, 195, 66); font-size: 14pt\">produtos saudáveis e plant-based (veganas).</span></strong></p>"
+      "paragraph": "<p><span style=\"color: rgb(255, 255, 255); font-size: 14pt\">Se diferencie e destaque o potencial do seu cardápio com</span><span style=\"font-size: 14pt\"> </span><strong><span style=\"color: rgb(161, 195, 66); font-size: 14pt\">produtos saudáveis e plant-based (veganos).</span></strong></p>"
     },
     {
       "__resolveType": "site/sections/ImageWithParagraph.tsx",
@@ -148,8 +148,8 @@
           "label": "Mousse chocolate"
         },
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f509a22-7863-4279-aca0-e42753ae153f/Ellipse-5.svg",
-          "label": "RequeVeg Requeijão"
+          "src": "https://data.decoassets.com/lp-vida-veg/7b9f67c9-8ddf-48dc-bb3c-6ce4da592836/req.png",
+          "label": "Requeijão Bisnaga Defumado"
         },
         {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
@@ -157,13 +157,13 @@
         },
         {
           "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
-          "label": "Requeijão castanha de caju"
+          "label": "Requeijão Bisnaga Tradicional"
         }
       ],
       "subtitle": "<p>Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
       "cta": {
         "label": "Conheça todos os produtos",
-        "link": "https://vidaveg.com.br/produtos"
+        "link": "https://vidaveg.b2list.com/order/31Bi8x"
       }
     },
     {
@@ -544,7 +544,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BtnLink.tsx",
-        "link": "https://vidaveg.b2list.com/order/oYTMYg",
+        "link": "https://vidaveg.b2list.com/order/31Bi8x",
         "buttonText": "Clique aqui e faça seu pedido!"
       }
     }
