@@ -15,7 +15,7 @@ const WhatsAppButton = ({
   className = "flex items-center text-white rounded"
 }: WhatsAppButtonProps) => {
   const formattedMessage = encodeURIComponent(message);
-  const whatsappLink = `https://wa.me/${553598355810}?text=${formattedMessage}`;
+  const whatsappLink = `https://wa.me/${5535997555813}?text=${formattedMessage}`;
 
   return (
     <a
