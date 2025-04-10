@@ -40,7 +40,7 @@
         },
         {
           "label": "Produtos",
-          "link": "https://b2app-list.b2list.com/order/BE1NnG/dmlkYXZlZw=="
+          "link": " https://b2app-list.b2list.com/order/3aAxMT/dmlkYXZlZw=="
         },
         {
           "link": "https://vidaveg.com.br/blog/",
@@ -163,7 +163,7 @@
       "subtitle": "<p>Temos um portfólio bem diversificado com os mais variados produtos. <br><strong>Alimentos 100% de base vegetal, gostosos e saudáveis.</strong></p>",
       "cta": {
         "label": "Conheça todos os produtos",
-        "link": "https://b2app-list.b2list.com/order/BE1NnG/dmlkYXZlZw=="
+        "link": " https://b2app-list.b2list.com/order/3aAxMT/dmlkYXZlZw=="
       }
     },
     {
@@ -544,7 +544,7 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/BtnLink.tsx",
-        "link": "https://b2app-list.b2list.com/order/BE1NnG/dmlkYXZlZw==",
+        "link": " https://b2app-list.b2list.com/order/3aAxMT/dmlkYXZlZw==",
         "buttonText": "Clique aqui e faça seu pedido!"
       }
     }
