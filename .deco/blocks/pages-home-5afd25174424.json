@@ -554,6 +554,13 @@
         "__resolveType": "site/sections/formhubspot.tsx",
         "name": "teste"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/hubspotform.tsx",
+        "name": "teeeeee"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
