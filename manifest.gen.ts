@@ -13,6 +13,7 @@ import * as $$$$$$4 from "./sections/BtnWhatsApp.tsx";
 import * as $$$$$$5 from "./sections/Faq.tsx";
 import * as $$$$$$6 from "./sections/Footer.tsx";
 import * as $$$$$$7 from "./sections/Form.tsx";
+import * as $$$$$$19 from "./sections/formhubspot.tsx";
 import * as $$$$$$8 from "./sections/Header.tsx";
 import * as $$$$$$9 from "./sections/Hero.tsx";
 import * as $$$$$$10 from "./sections/ImageWithParagraph.tsx";
@@ -35,6 +36,7 @@ const manifest = {
     "site/sections/Faq.tsx": $$$$$$5,
     "site/sections/Footer.tsx": $$$$$$6,
     "site/sections/Form.tsx": $$$$$$7,
+    "site/sections/formhubspot.tsx": $$$$$$19,
     "site/sections/Header.tsx": $$$$$$8,
     "site/sections/Hero.tsx": $$$$$$9,
     "site/sections/ImageWithParagraph.tsx": $$$$$$10,

@@ -547,6 +547,13 @@
         "link": " https://b2app-list.b2list.com/order/3aAxMT/dmlkYXZlZw==",
         "buttonText": "Clique aqui e faça seu pedido!"
       }
+    },
+    {
+      "__resolveType": "website/sections/Rendering/Lazy.tsx",
+      "section": {
+        "__resolveType": "site/sections/formhubspot.tsx",
+        "name": "teste"
+      }
     }
   ],
   "__resolveType": "website/pages/Page.tsx",
