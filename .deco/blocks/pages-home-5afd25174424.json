@@ -9,7 +9,7 @@
         "buttons": []
       },
       "logo": {
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
+        "src": "https://decoims.com/lp-vida-veg/9bc2c890-1b1d-47b3-a5d3-3f5b0472301b/log-2.svg"
       },
       "menus": [
         {
@@ -58,27 +58,27 @@
       ],
       "social": [
         {
-          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/8d40ce70-f6df-4d45-adaa-24c83bfa3b65/bg-linkedin.svg",
+          "network": "https://decoims.com/lp-vida-veg/8d40ce70-f6df-4d45-adaa-24c83bfa3b65/bg-linkedin.svg",
           "label": "Linkedin",
           "href": "/"
         },
         {
-          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/22f4bfc9-3f07-4fdb-8cc8-a06f5bc7d144/bg-face.png",
+          "network": "https://decoims.com/lp-vida-veg/22f4bfc9-3f07-4fdb-8cc8-a06f5bc7d144/bg-face.png",
           "label": "Facebook",
           "href": "/"
         },
         {
           "label": "Youtube",
-          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1714b39c-a0db-4285-b35a-0af8c0e32e9b/bg-youtube.svg",
+          "network": "https://decoims.com/lp-vida-veg/1714b39c-a0db-4285-b35a-0af8c0e32e9b/bg-youtube.svg",
           "href": "/"
         },
         {
-          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/a0e116d0-c695-4d43-a8f8-8ab2f0c61d25/bg-insta.svg",
+          "network": "https://decoims.com/lp-vida-veg/a0e116d0-c695-4d43-a8f8-8ab2f0c61d25/bg-insta.svg",
           "label": "Instagram",
           "href": "/"
         },
         {
-          "network": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/c212a633-ce43-438b-a6fc-cde08583c7b3/bg-twitter.svg",
+          "network": "https://decoims.com/lp-vida-veg/c212a633-ce43-438b-a6fc-cde08583c7b3/bg-twitter.svg",
           "label": "Twitter",
           "href": "/"
         }
@@ -90,7 +90,7 @@
       "cta": {},
       "description": "<p><span style=\"color: #ffffff\">Se diferencie e destaque&nbsp;o potencial do seu cardápio com </span><strong><span style=\"color: #a1c342\">produtos saudáveis</span></strong><span style=\"color: #ffffff\"> que atendem às demandas crescentes por </span><strong><span style=\"color: #a1c342\">alimentação consciente e mais inclusiva.</span></strong></p>",
       "imageMobile": "https://data.decoassets.com/lp-vida-veg/ecf7364d-40b9-45fd-85fe-df940fb7dbf8/WhatsApp-Image-2025-03-12-at-16.02.26.jpeg",
-      "imageDesktop": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/7c645e85-47d8-4f1e-a5a2-8c0dc4162d52/fundo.png",
+      "imageDesktop": "https://decoims.com/lp-vida-veg/7c645e85-47d8-4f1e-a5a2-8c0dc4162d52/fundo.png",
       "tagline": [
         {
           "text": "Restaurantes"
@@ -118,10 +118,10 @@
       "description": "<p><span style=\"color: #ffffff\">Aqui, tudo é desenvolvido para garantir a qualidade e a </span><strong><span style=\"color: #ffffff\">excelência que o seu negócio busca.</span></strong></p>",
       "tagline": {
         "tagline": "Quem Somos",
-        "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/11d5ed81-a89f-43e6-a28a-3049b12db6a2/quem-somos.svg",
+        "icon": "https://decoims.com/lp-vida-veg/11d5ed81-a89f-43e6-a28a-3049b12db6a2/quem-somos.svg",
         "label": "Quem Somos"
       },
-      "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png",
+      "src": "https://decoims.com/lp-vida-veg/f9e01c44-1f2c-4602-a502-9739ab6c528f/Rectangle-3.png",
       "disableSpacing": {
         "top": false,
         "bottom": false
@@ -136,15 +136,15 @@
       "title": "Nossos produtos",
       "cards": [
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/5efcc60c-80b5-43e5-8574-58e274b7a1e4/Ellipse-2.svg",
+          "src": "https://decoims.com/lp-vida-veg/5efcc60c-80b5-43e5-8574-58e274b7a1e4/Ellipse-2.svg",
           "label": "QueijoVeg Parmesão"
         },
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/980984f0-1a35-4ae6-90d6-05eabeaba626/Ellipse-3.svg",
+          "src": "https://decoims.com/lp-vida-veg/980984f0-1a35-4ae6-90d6-05eabeaba626/Ellipse-3.svg",
           "label": "QueijoVeg Muçarela"
         },
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ae82356a-1812-4b1d-9249-6e82a0990f87/Ellipse-4.svg",
+          "src": "https://decoims.com/lp-vida-veg/ae82356a-1812-4b1d-9249-6e82a0990f87/Ellipse-4.svg",
           "label": "Mousse chocolate"
         },
         {
@@ -152,11 +152,11 @@
           "label": "Requeijão Bisnaga Defumado"
         },
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
+          "src": "https://decoims.com/lp-vida-veg/4ea3de93-2a7d-4e53-91a7-41c1fd58e604/Ellipse-6.svg",
           "label": "Manteiga castanha de caju"
         },
         {
-          "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
+          "src": "https://decoims.com/lp-vida-veg/aebd8461-7279-4ef6-9693-63e2818cbcdc/Ellipse-7.svg",
           "label": "Requeijão Bisnaga Tradicional"
         }
       ],
@@ -179,19 +179,19 @@
         "cards": [
           {
             "text": "<p><span>Produtos 100% </span><strong><span>vegetais, saudáveis</span></strong><span>, saborosos e sustentáveis</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/2d5d1b48-c2e4-4bd4-87d0-b18aac6d27db/folha.svg"
+            "icon": "https://decoims.com/lp-vida-veg/2d5d1b48-c2e4-4bd4-87d0-b18aac6d27db/folha.svg"
           },
           {
             "text": "<p><strong><span>Consultoria gastronômica</span></strong><span> por tipo de cozinha</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b36fe7fd-5be3-4fd2-8e75-a729140afd01/aconselhamento.svg"
+            "icon": "https://decoims.com/lp-vida-veg/b36fe7fd-5be3-4fd2-8e75-a729140afd01/aconselhamento.svg"
           },
           {
             "text": "<p><strong><span>Facilidade no uso e integração</span></strong><span> com diferentes tipos de pratos</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/dc105727-458e-4c21-b957-ef9ac43330a4/falafel.svg"
+            "icon": "https://decoims.com/lp-vida-veg/dc105727-458e-4c21-b957-ef9ac43330a4/falafel.svg"
           },
           {
             "text": "<p><strong><span>Suporte contínuo com receitas e dicas</span></strong><span> de como usar nossos produtos</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ba66fb67-8f6d-4f78-b94f-c4679f57f400/apoio-suporte.svg"
+            "icon": "https://decoims.com/lp-vida-veg/ba66fb67-8f6d-4f78-b94f-c4679f57f400/apoio-suporte.svg"
           }
         ],
         "title": "Um novo futuro começa agora!",
@@ -212,20 +212,20 @@
           {
             "percentage": 85,
             "text": "dos brasileiros possuem algum nível de intolerância à proteina do leite de origem animal.",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b1ae9de4-f40b-4a3d-8035-10af579d4760/85-(1).svg"
+            "icon": "https://decoims.com/lp-vida-veg/b1ae9de4-f40b-4a3d-8035-10af579d4760/85-(1).svg"
           },
           {
             "percentage": 70,
             "text": "dos consumidores no  mundo está mudando de dieta para prevenir doenças.",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1cdccedb-3979-4f16-9171-bca10edbbe0b/70-(1).svg"
+            "icon": "https://decoims.com/lp-vida-veg/1cdccedb-3979-4f16-9171-bca10edbbe0b/70-(1).svg"
           },
           {
             "percentage": 49,
             "text": "dos consumidores brasileiros afirmaram ter reduzido o consumo de carne nos últimos 12 meses.",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/40a4a37c-1d23-4ceb-a846-df8954a66c76/49-(1).svg"
+            "icon": "https://decoims.com/lp-vida-veg/40a4a37c-1d23-4ceb-a846-df8954a66c76/49-(1).svg"
           },
           {
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b1ae9de4-f40b-4a3d-8035-10af579d4760/85-(1).svg",
+            "icon": "https://decoims.com/lp-vida-veg/b1ae9de4-f40b-4a3d-8035-10af579d4760/85-(1).svg",
             "text": "experimentariam carnes vegetais que fossem idênticas às de origem animal."
           }
         ],
@@ -249,7 +249,7 @@
             "12": "m",
             "13": "o",
             "text": "Vegetarianismo",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
           },
           {
             "0": "V",
@@ -262,7 +262,7 @@
             "7": "m",
             "8": "o",
             "text": "Veganismo",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
           },
           {
             "0": "A",
@@ -286,7 +286,7 @@
             "18": "e",
             "19": "l",
             "text": "Alimentação saudável",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
           },
           {
             "0": "I",
@@ -311,7 +311,7 @@
             "19": "o",
             "20": "s",
             "21": "e",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
             "text": "Alergia à proteína do leite (APLV)"
           },
           {
@@ -349,7 +349,7 @@
             "31": "L",
             "32": "V",
             "33": ")",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg",
             "text": "Intolerância ao glúten"
           },
           {
@@ -376,11 +376,11 @@
             "20": "e",
             "21": "n",
             "text": "Intolerância à lactose",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
+            "icon": "https://decoims.com/lp-vida-veg/ff4b06b3-aade-420b-b6f2-c74c7f72bcd4/food-green.svg"
           }
         ],
         "title": {
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/04e86ee3-9163-4e05-9132-724a396bb5bb/target.svg",
+          "icon": "https://decoims.com/lp-vida-veg/04e86ee3-9163-4e05-9132-724a396bb5bb/target.svg",
           "text": "Benefícios para seu Negócio"
         }
       }
@@ -395,22 +395,22 @@
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
       "section": {
         "__resolveType": "site/sections/Advantages.tsx",
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/da594fed-da14-41cd-a62e-019b3d063099/percent.svg",
+        "src": "https://decoims.com/lp-vida-veg/da594fed-da14-41cd-a62e-019b3d063099/percent.svg",
         "title": "<p><strong><span style=\"color: #ffffff\">Oferecer produtos veganos no seu estabelecimento nunca foi tão fácil!<br></span><span style=\"color: #a1c342\">Com a linha Vida Veg Chef, você contará com:</span></strong></p>",
         "cards": [
           {
             "content": "<p><span style=\"color: rgb(255, 255, 255)\">A demanda por pratos saudáveis e com restrições alimentares está crescendo exponencialmente.</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/6de6d42f-24b6-411d-aff4-0815856d547d/crescimento-do-publico.svg",
+            "icon": "https://decoims.com/lp-vida-veg/6de6d42f-24b6-411d-aff4-0815856d547d/crescimento-do-publico.svg",
             "title": "Recorrência de Clientes"
           },
           {
             "content": "<p><span style=\"color: rgb(255, 255, 255)\">Nossa equipe de especialistas está pronta para ajudar você a elaborar pratos deliciosos e nutritivos.</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/e4865e58-8818-4e2e-a60e-0343ba2a41bc/chef.svg",
+            "icon": "https://decoims.com/lp-vida-veg/e4865e58-8818-4e2e-a60e-0343ba2a41bc/chef.svg",
             "title": "Consultoria Gastronômica"
           },
           {
             "content": "<p><span style=\"color: rgb(255, 255, 255)\">Requeijão, parmesão, muçarela, homus e mousse entre outros&nbsp;que se destacam tanto pelo sabor quanto pela praticidade no preparo.</span></p>",
-            "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/1e3d4ecf-90f9-418d-8c95-3d1d40ad5e8c/certificado-de-garantia.svg",
+            "icon": "https://decoims.com/lp-vida-veg/1e3d4ecf-90f9-418d-8c95-3d1d40ad5e8c/certificado-de-garantia.svg",
             "title": "Produtos de Alta Qualidade"
           }
         ]
@@ -430,31 +430,31 @@
         {
           "content": {
             "description": "\"Os queijos da vida VEG estão fazendo a diferença na nossa cozinha, uma que a textura e sabor são maravilhosas para preparações como pizza, risotos e outros. Já na loja os clientes estão encantados em poder consumir um queijo com tanto sabor e qualidade 💕\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/96e0b73b-3311-4021-b348-668ba9647322/457d2903b9cf2f14513a918fce316078.png"
+            "avatar": "https://decoims.com/lp-vida-veg/96e0b73b-3311-4021-b348-668ba9647322/457d2903b9cf2f14513a918fce316078.png"
           }
         },
         {
           "content": {
             "description": "\"Foi um produto que salvou bastante a gente, porque muita gente tem restrição, pessoas que são veganas e os produtos atendem muito bem, em até receitas que vão para o salão.\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b5deff4c-a852-492f-9822-3a6c676bdd49/Group-39217.png"
+            "avatar": "https://decoims.com/lp-vida-veg/b5deff4c-a852-492f-9822-3a6c676bdd49/Group-39217.png"
           }
         },
         {
           "content": {
             "description": "\"Aqui na Di Blasi Pizzas, temos explorado opções mais saudáveis e voltadas para o público vegano e vegetariano. Os produtos Vida Veg têm sido um ótimo complemento, especialmente por serem muito versáteis e de alta qualidade. Eles se integram bem nas preparações sem comprometer o sabor ou a textura, o que é essencial para manter o padrão das nossas pizzas. O feedback dos clientes tem sido positivo, pois muitos apreciam o sabor autêntico e a leveza dos ingredientes.\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/b8e81bf8-c337-4711-b35b-c57618d25eba/Group.png"
+            "avatar": "https://decoims.com/lp-vida-veg/b8e81bf8-c337-4711-b35b-c57618d25eba/Group.png"
           }
         },
         {
           "content": {
             "description": "\"Gostaria de deixar registrado o feedback dos produtos que comprei de vocês enquanto eu estava na Sodexo. A vendedora foi muito atenciosa e os produtos atenderam a minha necessidade de abrangência de alérgicos. Em anos na empresa não tinha trabalhado com um fornecedor com tantas opções de produtos para alérgicos. Obrigada!\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/0aa03bb6-f46d-4c0e-9d99-e2da3c98e511/Group-39217.png"
+            "avatar": "https://decoims.com/lp-vida-veg/0aa03bb6-f46d-4c0e-9d99-e2da3c98e511/Group-39217.png"
           }
         },
         {
           "content": {
             "description": "\"Quando penso em alimentação tenho em mente não só a nutrição mas a forma de cuidar do todo, corpo, mente e meio ambiente. Os produtos Vida Veg nos proporcionam isso.  Cuidado com o todo, tendo assim o compromisso e a certeza de servir nosso propósito fazendo o melhor para uma alimentação saudável, inclusiva, saborosa e nutritiva!\"",
-            "avatar": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
+            "avatar": "https://decoims.com/lp-vida-veg/473a508e-ac1a-48f7-9c43-6db102ed9a93/Group-39217.png"
           }
         }
       ]
@@ -472,21 +472,21 @@
       "posts": [
         {
           "title": "Pizza para todos - com queijo Vida Veg",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/bec34715-4fe5-4b53-ac53-381dc882e2f2/WhatsApp-Image-2024-12-17-at-09.50.24.jpeg",
+          "image": "https://decoims.com/lp-vida-veg/bec34715-4fe5-4b53-ac53-381dc882e2f2/WhatsApp-Image-2024-12-17-at-09.50.24.jpeg",
           "videoLink": "https://www.youtube.com/embed/qvzvfg0qTyg"
         },
         {
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/362e25f6-ba84-448b-a956-847746a67d51/WhatsApp-Image-2024-12-17-at-10.12.53.jpeg",
+          "image": "https://decoims.com/lp-vida-veg/362e25f6-ba84-448b-a956-847746a67d51/WhatsApp-Image-2024-12-17-at-10.12.53.jpeg",
           "videoLink": "https://www.youtube.com/embed/3L-oK53pl80",
           "title": "Goiabada Tragaluz - com requeijão Vida Veg"
         },
         {
           "title": "Dadinho de tapioca - com leite e queijo  Vida Veg",
-          "image": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/d6b11a04-022d-4a40-8549-249672e74d8b/WhatsApp-Image-2024-12-17-at-10.14.19.jpeg",
+          "image": "https://decoims.com/lp-vida-veg/d6b11a04-022d-4a40-8549-249672e74d8b/WhatsApp-Image-2024-12-17-at-10.14.19.jpeg",
           "videoLink": "https://www.youtube.com/embed/5p5ah-AE0ZE"
         }
       ],
-      "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
+      "icon": "https://decoims.com/lp-vida-veg/08312ac2-95ca-4c8f-aa9d-d90d078bc593/food.svg"
     },
     {
       "__resolveType": "website/sections/Rendering/Lazy.tsx",
@@ -503,10 +503,10 @@
         "cta": {
           "label": "Faça seu pedido aqui",
           "link": "https://wa.me/553597555813",
-          "icon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/244ad68b-bdbe-4f11-8cb9-e38cc2ac1e2a/whatsapp1.svg"
+          "icon": "https://decoims.com/lp-vida-veg/244ad68b-bdbe-4f11-8cb9-e38cc2ac1e2a/whatsapp1.svg"
         },
-        "src": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/cbe4af10-fce2-47c0-b320-c7a006d8e32c/Rectangle-3.png",
-        "titleIcon": "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/a05be2bc-fec1-476d-a1fa-071160239737/food.svg"
+        "src": "https://decoims.com/lp-vida-veg/cbe4af10-fce2-47c0-b320-c7a006d8e32c/Rectangle-3.png",
+        "titleIcon": "https://decoims.com/lp-vida-veg/a05be2bc-fec1-476d-a1fa-071160239737/food.svg"
       }
     },
     {

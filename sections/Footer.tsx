@@ -54,14 +54,14 @@ export interface Props {
 
 export default function Footer({
   logo = {
-    src: "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/d1ab627c-f887-4444-aa7c-9fc30f0db435/Group.svg",
+    src: "https://decoims.com/lp-vida-veg/d1ab627c-f887-4444-aa7c-9fc30f0db435/Group.svg",
     alt: "Logo",
   },
   seals,
   subscribe = { title: "Subscribe" },
   madeWith = {
     label: "By:",
-    src: "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/4f8bdc48-ea46-4ffb-a63e-0af96f691891/Group-697.svg",
+    src: "https://decoims.com/lp-vida-veg/4f8bdc48-ea46-4ffb-a63e-0af96f691891/Group-697.svg",
     href: "https://deco.cx",
   },
   copyright = "© 2024 deco.cx. All rights reserved.",

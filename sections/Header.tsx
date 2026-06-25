@@ -68,7 +68,7 @@ export const SIDEMENU_CONTAINER_ID = "sidemenu";
 
 export default function Header({
   logo = {
-    src: "https://deco-sites-assets.s3.sa-east-1.amazonaws.com/lp-vida-veg/daf54f8b-cdc5-4706-bafb-aeb765b04386/vidaveg-1.png",
+    src: "https://decoims.com/lp-vida-veg/daf54f8b-cdc5-4706-bafb-aeb765b04386/vidaveg-1.png",
     alt: "Logo",
   },
   menu,
